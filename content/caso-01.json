@@ -3,15 +3,44 @@
   "title": "Laboratório de IA generativa: do pedido à resposta conferida",
   "fictional": true,
   "institutionalValidation": "pending",
-  "durationMinutes": 23,
+  "durationMinutes": 30,
   "openingMinutes": 2,
   "closingMinutes": 3,
   "scenario": "Lívia, profissional fictícia da CTP, quer organizar notas de atendimento em uma minuta. As notas dizem: “Responsável relata dificuldade com transporte. Quatro faltas, sem período informado. Equipe propôs novo contato na próxima semana.” Caio ajuda a elaborar e testar as instruções. Pingo apresenta rascunhos preparados para análise. Não há chamada a um modelo de IA nesta versão.",
   "steps": [
     {
-      "id": "prompt",
-      "order": 1,
+      "id": "escolha",
+      "concept": "Escolher ferramenta e modalidade de custo",
+      "character": "Caio",
+      "question": "Como escolher entre Gemini, ChatGPT e Claude para esta tarefa?",
+      "stimulus": "Você quer resumir documentos e revisar uma planilha fictícia. Há opções gratuitas e pagas. Recursos, limites e condições variam por plano e conta.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Escolher sempre a mais cara: o preço garante que a resposta estará correta.",
+          "feedback": "Preço não comprova precisão. É necessário testar a tarefa e revisar o resultado."
+        },
+        {
+          "id": "b",
+          "text": "Comparar com a mesma tarefa, verificar arquivos, limites, condições de uso dos dados e custo total.",
+          "feedback": "A escolha depende da tarefa e do ambiente autorizado. O teste comparável ajuda a avaliar utilidade e esforço de revisão."
+        },
+        {
+          "id": "c",
+          "text": "Assinar um aplicativo e presumir que isso libera uma integração por API sem custo adicional.",
+          "feedback": "Aplicativo e API são modalidades distintas. No caso da OpenAI, a cobrança de API é separada da assinatura do ChatGPT; confira cada fornecedor."
+        }
+      ],
+      "recommendedOptionId": "b",
+      "discussion": "Qual recurso você realmente precisa, e qual limite poderia interromper sua rotina?",
+      "example": "Google: Gemini. OpenAI: ChatGPT. Anthropic: Claude. Compare com o mesmo material fictício. Distinga acesso gratuito, assinatura do aplicativo, API e contratação institucional. Consulte os planos oficiais antes de decidir.",
       "durationMinutes": 4,
+      "order": 1
+    },
+    {
+      "id": "prompt",
+      "order": 2,
+      "durationMinutes": 3,
       "concept": "Elaborar instruções",
       "character": "Lívia",
       "question": "Qual pedido dá melhores condições para a IA executar esta tarefa?",
@@ -39,8 +68,8 @@
     },
     {
       "id": "contexto",
-      "order": 2,
-      "durationMinutes": 4,
+      "order": 3,
+      "durationMinutes": 3,
       "concept": "Selecionar contexto",
       "character": "Caio",
       "question": "Que material ajuda a tornar a resposta verificável?",
@@ -68,8 +97,8 @@
     },
     {
       "id": "confiabilidade",
-      "order": 3,
-      "durationMinutes": 4,
+      "order": 4,
+      "durationMinutes": 3,
       "concept": "Encontrar acréscimos sem base",
       "character": "Pingo",
       "question": "Qual problema você encontra nesta resposta preparada?",
@@ -97,7 +126,7 @@
     },
     {
       "id": "iteracao",
-      "order": 4,
+      "order": 5,
       "durationMinutes": 3,
       "concept": "Refinar o pedido",
       "character": "Caio",
@@ -126,7 +155,7 @@
     },
     {
       "id": "avaliacao",
-      "order": 5,
+      "order": 6,
       "durationMinutes": 3,
       "concept": "Avaliar o resultado",
       "character": "Lívia",
@@ -152,6 +181,64 @@
       "recommendedOptionId": "c",
       "discussion": "Qual critério você usaria para comparar duas respostas?",
       "example": "Checklist: fidelidade à fonte; lacunas visíveis; ausência de referências inventadas; formato útil; revisão concluída; tempo total avaliado."
+    },
+    {
+      "id": "dados",
+      "concept": "Trabalhar com planilhas e formulários",
+      "character": "Pingo",
+      "question": "Qual resposta interpreta corretamente este conjunto de dados?",
+      "stimulus": "Respostas fictícias de um formulário:\nGrupo A: 10 respostas, 4 pedidos de orientação.\nGrupo B: 20 respostas, 6 pedidos de orientação.\nGrupo C: 5 respostas, 3 pedidos de orientação.\nSão respostas coletadas, não todos os estudantes de cada grupo.",
+      "options": [
+        {
+          "id": "a",
+          "text": "O grupo B tem a maior proporção, pois recebeu 6 pedidos.",
+          "feedback": "B tem o maior número absoluto, mas 6/20 é 30%, menor que 4/10 (40%) e 3/5 (60%)."
+        },
+        {
+          "id": "b",
+          "text": "60% de todos os estudantes do grupo C precisam de orientação.",
+          "feedback": "3/5 é 60% das respostas do grupo C. Não sabemos se quem respondeu representa todos os estudantes."
+        },
+        {
+          "id": "c",
+          "text": "Entre as respostas recebidas, C tem a maior proporção: 3/5 = 60%. Isso não demonstra a situação de todos os estudantes.",
+          "feedback": "A interpretação preserva denominador e população observada. Confira cálculos em planilha e evite generalizar."
+        }
+      ],
+      "recommendedOptionId": "c",
+      "discussion": "Que instrução pediria denominadores e impediria a generalização?",
+      "example": "Pedido reutilizável: analise este CSV fictício; mostre numerador, denominador e percentual; descreva somente as respostas recebidas; não atribua causas; liste limitações.\nConferência: A 4/10=40%; B 6/20=30%; C 3/5=60%; total 13/35≈37,1%.",
+      "durationMinutes": 4,
+      "order": 7
+    },
+    {
+      "id": "instituicao",
+      "concept": "Integrar materiais e construir com a instituição",
+      "character": "Lívia",
+      "question": "Como evoluir de uma experiência individual para um fluxo com formulários, planilhas e SEI?",
+      "stimulus": "A equipe quer aproveitar respostas de formulário para preparar uma síntese e, quando aplicável, uma minuta para o SEI.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Começar com dados fictícios e exportações; validar o fluxo e envolver as áreas responsáveis antes de usar conectores ou desenvolver integrações.",
+          "feedback": "É possível aprender individualmente e construir o fluxo com a instituição. Cada caminho tem requisitos próprios de acesso, revisão e manutenção."
+        },
+        {
+          "id": "b",
+          "text": "Presumir que anexar uma planilha já conecta a ferramenta ao formulário e ao SEI em tempo real.",
+          "feedback": "Um anexo é um retrato do arquivo. Ele não configura sincronização nem concede acesso ao SEI."
+        },
+        {
+          "id": "c",
+          "text": "Usar a conta pessoal de uma pessoa para automatizar todos os documentos institucionais.",
+          "feedback": "Uma experiência individual não define permissões, responsabilidade e sustentabilidade de um processo institucional."
+        }
+      ],
+      "recommendedOptionId": "a",
+      "discussion": "O que você pode experimentar agora e o que precisa pactuar com gestão e TI?",
+      "example": "Quatro caminhos: anexar arquivo; exportar CSV/PDF; usar conector disponível e autorizado; desenvolver integração por API. Para o SEI, preparar uma minuta ou consultar um procedimento é diferente de acessar sua API. Integração depende da instituição.",
+      "durationMinutes": 2,
+      "order": 8
     }
   ],
   "focus": "generative-ai-literacy",

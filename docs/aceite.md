@@ -11,7 +11,7 @@
 - O facilitador consegue seguir pelo projetor sem rede, sem fingir sincronização com celulares.
 - Textos e alvos de toque legíveis em celular; navegação por teclado e estados acessíveis.
 - Referências não validadas aparecem como simulação.
-- Cinco decisões e encerramento cabem em 23 minutos no ensaio.
+- Oito exercícios e encerramento cabem em 30 minutos no ensaio.
 - QR code testado em celular externo, com endereço real e código legível como alternativa.
 - Capacidade, retenção e expiração de sessão definidas antes da publicação.
 

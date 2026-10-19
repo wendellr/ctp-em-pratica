@@ -10,7 +10,7 @@ Etapa 1: roteiro e conteúdo inicial preparados para revisão. Há um protótipo
 
 ## Primeira entrega planejada
 
-Uma atividade de 23 minutos, cinco exercícios de IA, participação sem cadastro, resultados agregados e explicações liberadas pelo apresentador. Caso inteiramente fictício, sem informações reais de estudantes. Alternativa conduzida pelo projetor quando a conexão falhar.
+Uma atividade de 30 minutos, oito exercícios de IA, participação sem cadastro, resultados agregados e explicações liberadas pelo apresentador. Caso inteiramente fictício, sem informações reais de estudantes. Alternativa conduzida pelo projetor quando a conexão falhar.
 
 Os procedimentos específicos do SEI dependem de referência e validação do IFCE. A ferramenta não acessará nem operará o SEI nesta fase.
 
@@ -41,4 +41,4 @@ Nenhuma licença de distribuição foi escolhida. Não presumir autorização pa
 
 ## Protótipo individual
 
-`index.html` e `app.js` apresentam cinco exercícios de IA: elaborar pedidos, selecionar contexto, detectar acréscimos sem base, iterar e avaliar resultados. Lívia, Caio e Pingo são personagens fictícios ilustrativos. Exemplos são preparados para ensino, sem chamada a um modelo. Escolhas e estado ficam somente na memória da aba; recarregar reinicia a atividade. Não há contagem coletiva ou controle de apresentador. O conteúdo é carregado de `content/caso-01.json` por endereço HTTP(S).
+`index.html` e `app.js` apresentam oito exercícios de IA: escolha de ferramenta e custo, elaboração de pedidos, contexto, confiabilidade, iteração, avaliação, dados tabulares e construção institucional. Lívia, Caio e Pingo são personagens fictícios ilustrativos. Exemplos são preparados para ensino, sem chamada a um modelo. Escolhas e estado ficam somente na memória da aba; recarregar reinicia a atividade. Não há contagem coletiva ou controle de apresentador. O conteúdo é carregado de `content/caso-01.json` por endereço HTTP(S).

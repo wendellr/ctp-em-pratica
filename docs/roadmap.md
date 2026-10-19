@@ -4,7 +4,7 @@
 
 - [x] Delimitar uma atividade com cinco exercícios de IA.
 - [x] Preparar caso fictício e explicações de cada alternativa.
-- [x] Definir roteiro de mediação de 23 minutos.
+- [x] Definir roteiro de mediação de 30 minutos.
 - [x] Criar conteúdo estruturado e verificações de consistência.
 - [ ] Revisar o conteúdo com o professor.
 
@@ -39,7 +39,7 @@ M2 não impede desenhar a simulação. Impede apresentar orientações locais co
 
 - [ ] Confirmar tamanho estimado da plateia e rede disponível.
 - [ ] Testar simultaneidade com a capacidade esperada.
-- [ ] Ensaiar 23 minutos com grupo pequeno.
+- [ ] Ensaiar 30 minutos com grupo pequeno.
 - [ ] Conferir contraste, teclado e leitor de tela.
 - [ ] Preparar modo de condução sem conexão e retorno ao modo on-line.
 - [ ] Integrar o endereço da atividade à apresentação.

@@ -31,3 +31,7 @@ Destino autorizado pelo responsável: conta pessoal no GitHub e publicação pel
 ## D008 — Laboratório de IA generativa
 
 A pedido do professor, o caso passa a ensinar instruções, contexto, detecção de acréscimos sem base, refinamento e avaliação de respostas. Lívia, Caio e Pingo são personagens fictícios ilustrados por IA. Os exemplos são preparados, sem geração ao vivo.
+
+## D010 — Oito exercícios em 30 minutos
+
+O laboratório cobre escolha e custos, instruções, contexto, conferência, iteração, avaliação, planilhas/formulários e caminhos institucionais. Inclui CSV fictício para experimentação opcional, sem upload ou chamada de IA no aplicativo. Fontes oficiais de planos consultadas em 19/10/2026; sem preços numéricos não verificados.
