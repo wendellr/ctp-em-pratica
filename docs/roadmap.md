@@ -53,3 +53,9 @@ M2 não impede desenhar a simulação. Impede apresentar orientações locais co
 ## Próxima ação
 
 Revisão do caso 01. Em paralelo, obter a referência institucional e definir o repositório remoto. Não há datas de implementação prometidas; o cronograma depende da data da palestra, capacidade e hospedagem.
+
+## Entrega ao vivo — 19/10/2026
+
+Implementados: servidor autenticado, painel, projeção, QR local, entrada com código, duas rodadas por missão, confiança, última escolha por identificador, comparações pareadas e controles manuais. Personagens com transparência.
+
+Pendente: ensaio com o professor, teste na rede da plateia e capacidade com o número esperado de participantes. Não há pontuação, equipes formais, coleta de justificativas livres ou exportação/histórico permanente.

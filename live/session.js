@@ -1,0 +1,14 @@
+import {randomBytes} from 'node:crypto';
+export const newToken=()=>randomBytes(24).toString('hex');
+export function createSession(code,now=Date.now()){return {code,created:now,expires:now+8*3600000,mission:0,round:1,phase:'ready',people:new Map(),votes:[{}, {}, {}].map(()=>({1:new Map(),2:new Map()})),deadline:null};}
+export function advance(s,action,count){
+ if(action==='open'){if(!['ready','evidence'].includes(s.phase))throw Error('Abra uma rodada pronta.');s.phase='open';s.deadline=Date.now()+30000;}
+ else if(action==='close'){if(s.phase!=='open')throw Error('A votação não está aberta.');s.phase='closed';s.deadline=null;}
+ else if(action==='evidence'){if(s.phase!=='closed'||s.round!==1)throw Error('Encerre a primeira votação.');s.phase='evidence';s.round=2;}
+ else if(action==='reveal'){if(s.phase!=='closed'||s.round!==2)throw Error('Encerre a segunda votação.');s.phase='revealed';}
+ else if(action==='next'){if(s.phase!=='revealed'||s.mission>=count-1)throw Error('Conclua a missão atual.');s.mission++;s.round=1;s.phase='ready';s.deadline=null;}
+ else throw Error('Ação desconhecida.');
+}
+export function vote(s,participant,body,mission){if(!s.people.has(participant))throw Error('Entre novamente na sessão.');if(s.phase!=='open')throw Error('Votação encerrada.');if(body.mission!==s.mission||body.round!==s.round)throw Error('A etapa mudou. Atualize a tela.');if(!mission.options.some(o=>o.id===body.option)||![1,2,3].includes(body.confidence))throw Error('Escolha uma alternativa e sua confiança.');s.votes[s.mission][s.round].set(participant,{option:body.option,confidence:body.confidence});s.people.set(participant,Date.now());}
+export function stats(s,mission){const rounds={};for(const n of [1,2]){const votes=s.votes[s.mission][n];rounds[n]={total:votes.size,counts:Object.fromEntries(mission.options.map(o=>[o.id,[...votes.values()].filter(v=>v.option===o.id).length])),confidence:[1,2,3].map(k=>[...votes.values()].filter(v=>v.confidence===k).length)};}let paired=0,changed=0;for(const [id,v]of s.votes[s.mission][1]){const b=s.votes[s.mission][2].get(id);if(b){paired++;if(b.option!==v.option)changed++;}}return {rounds,paired,changed,participants:s.people.size,active:[...s.people.values()].filter(t=>Date.now()-t<90000).length};}
+export function publicState(s,m,host=false){const evidenceVisible=['evidence','revealed'].includes(s.phase)||s.round===2;return {code:s.code,mission:s.mission,round:s.round,phase:s.phase,deadline:s.deadline,title:m.title,character:m.character,setup:m.setup,question:m.question,options:m.options.map(({id,text})=>({id,text})),evidence:evidenceVisible?m.evidence:null,explanation:s.phase==='revealed'?m.explanation:null,stats:host||s.phase==='revealed'?stats(s,m):null,...(host?{guide:m.guide,evidencePreview:m.evidence,explanationPreview:m.explanation}:{} )};}

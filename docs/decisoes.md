@@ -39,3 +39,7 @@ O laboratório cobre escolha e custos, instruções, contexto, conferência, ite
 ## D011 — Alinhamento integral ao convite da PROEN
 
 Palestra com título proposto, exemplo de reunião e material formativo, distinção entre instrumentos documentais, indicadores de frequência/rendimento/participação e comparação explícita de rótulos e descrições. A perspectiva permanece técnica: instrução, fontes, cálculos, validação e limites. Matriz em docs/alinhamento-proen.md.
+
+## D012 — Missões mediadas com painel privado
+
+Três missões, duas rodadas cada e pausas curtas sob controle do professor. Painel acompanha votos e confiança; projeção revela somente após comando. Comparação pareada por identificador aleatório. Sem ranking, equipes formais ou histórico permanente. Sessões temporárias em memória. Limitações em docs/conducao-ao-vivo.md.

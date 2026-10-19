@@ -42,3 +42,7 @@ Nenhuma licença de distribuição foi escolhida. Não presumir autorização pa
 ## Protótipo individual
 
 `index.html` e `app.js` apresentam oito exercícios de IA: escolha de ferramenta e custo, elaboração de pedidos, contexto, confiabilidade, iteração, avaliação, dados tabulares e construção institucional. Lívia, Caio e Pingo são personagens fictícios ilustrativos. Exemplos são preparados para ensino, sem chamada a um modelo. Escolhas e estado ficam somente na memória da aba; recarregar reinicia a atividade. Não há contagem coletiva ou controle de apresentador. O conteúdo é carregado de `content/caso-01.json` por endereço HTTP(S).
+
+## Ao vivo
+
+A versão de servidor inclui painel do apresentador, projeção e participação sincronizada. Veja [roteiro e limitações](docs/conducao-ao-vivo.md). GitHub Pages continua servindo apenas o modo individual; o ao vivo depende do servidor. As missões são exemplos preparados, sem IA ao vivo. `npm start` exige HOST_KEY configurada fora do repositório.
