@@ -11,3 +11,5 @@ Não introduzir identificação nominal ou ranking de participantes. A identidad
 Registrar decisões em docs/decisoes.md e atualizar docs/roadmap.md. Alterações de conteúdo devem manter o caso estruturado e o roteiro consistentes. Executar npm test após mudanças no caso ou no validador.
 
 Antes de instalar dependências ou definir hospedagem, considerar requisitos de tempo real, projeção, celular, acessibilidade e custo. Não publicar segredos. Não criar licença aberta sem definição do titular.
+
+Antes de modificar slides, conteúdo do laboratório ou roadmap, consultar docs/objetivos-da-formacao.md. As metas incluem confiança, escolha de ferramentas e custos, revisão dos resultados, uso de dados e construção institucional. Não reduzir a formação a revisão textual.

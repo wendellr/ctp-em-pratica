@@ -16,6 +16,8 @@ Os procedimentos específicos do SEI dependem de referência e validação do IF
 
 ## Conteúdo e gestão
 
+- [Objetivos centrais da formação](docs/objetivos-da-formacao.md)
+
 - [Caso e roteiro de mediação](docs/caso-01.md)
 - [Roadmap e tarefas](docs/roadmap.md)
 - [Critérios da primeira versão](docs/aceite.md)
