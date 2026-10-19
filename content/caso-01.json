@@ -102,7 +102,7 @@
       "concept": "Encontrar acréscimos sem base",
       "character": "Pingo",
       "question": "Qual problema você encontra nesta resposta preparada?",
-      "stimulus": "“A família confirmou que o transporte causou todas as faltas de outubro. Ficou acordado retorno na terça-feira, conforme a Portaria CTP 99/2026.”\n\nA portaria é fictícia e inventada para este exercício. Compare com as notas do caso.",
+      "stimulus": "“A família confirmou que o transporte causou todas as faltas de outubro. Ficou acordado retorno na terça-feira, conforme a Portaria CTP 99/2026.”\n\nA portaria é fictícia e inventada para este exercício. Compare com as notas do caso.\n\nOutra resposta preparada diz: “O estudante é desinteressado e a família é negligente”. Quais informações nas notas sustentam esses rótulos?",
       "options": [
         {
           "id": "a",
@@ -121,8 +121,8 @@
         }
       ],
       "recommendedOptionId": "a",
-      "discussion": "Que afirmação você verificaria primeiro e em qual fonte?",
-      "example": "Anote cada afirmação e o trecho que a sustenta. Se não houver suporte, marque “sem base nas notas” e retire ou encaminhe para verificação. Não aceite a portaria inventada como norma real."
+      "discussion": "Além dos fatos acrescentados, que rótulos e generalizações precisam ser retirados ou confrontados com evidências?",
+      "example": "Anote cada afirmação e o trecho que a sustenta. Se não houver suporte, marque “sem base nas notas” e retire ou encaminhe para verificação. Não aceite a portaria inventada como norma real.\nLinguagem: substitua rótulos por descrição atribuída à fonte. “O responsável relatou dificuldade com transporte; as notas mencionam quatro faltas, sem período informado.” Não atribua intenção ao estudante ou à família."
     },
     {
       "id": "iteracao",

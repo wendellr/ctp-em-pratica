@@ -35,3 +35,7 @@ A pedido do professor, o caso passa a ensinar instruções, contexto, detecção
 ## D010 — Oito exercícios em 30 minutos
 
 O laboratório cobre escolha e custos, instruções, contexto, conferência, iteração, avaliação, planilhas/formulários e caminhos institucionais. Inclui CSV fictício para experimentação opcional, sem upload ou chamada de IA no aplicativo. Fontes oficiais de planos consultadas em 19/10/2026; sem preços numéricos não verificados.
+
+## D011 — Alinhamento integral ao convite da PROEN
+
+Palestra com título proposto, exemplo de reunião e material formativo, distinção entre instrumentos documentais, indicadores de frequência/rendimento/participação e comparação explícita de rótulos e descrições. A perspectiva permanece técnica: instrução, fontes, cálculos, validação e limites. Matriz em docs/alinhamento-proen.md.

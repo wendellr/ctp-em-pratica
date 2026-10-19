@@ -212,3 +212,7 @@ Quatro caminhos: anexar arquivo; exportar CSV/PDF; usar conector disponível e a
 ## Fechamento
 
 Qual tarefa você pode experimentar? Qual ação precisa ser construída institucionalmente? Reforce: resultados exigem compreensão e ajuste; anexos, exportações, conectores e API são caminhos diferentes.
+
+## Complemento — linguagem e vieses
+
+No exercício de confiabilidade, comparar o rótulo “estudante desinteressado e família negligente” com a descrição atribuída às notas. Perguntar que evidência sustenta a atribuição. O exemplo mostra um risco de generalização e julgamento sem base, não uma medição de viés de qualquer fornecedor.
