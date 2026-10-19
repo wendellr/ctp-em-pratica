@@ -1,8 +1,8 @@
 # Roadmap
 
-## M1 — Caso completo para revisão
+## M1 — Laboratório de IA para revisão
 
-- [x] Delimitar uma atividade com cinco decisões.
+- [x] Delimitar uma atividade com cinco exercícios de IA.
 - [x] Preparar caso fictício e explicações de cada alternativa.
 - [x] Definir roteiro de mediação de 23 minutos.
 - [x] Criar conteúdo estruturado e verificações de consistência.

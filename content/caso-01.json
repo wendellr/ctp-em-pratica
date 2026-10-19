@@ -1,137 +1,159 @@
 {
   "id": "caso-01",
-  "title": "Faltas e relato de dificuldade com transporte",
+  "title": "Laboratório de IA generativa: do pedido à resposta conferida",
   "fictional": true,
   "institutionalValidation": "pending",
   "durationMinutes": 23,
   "openingMinutes": 2,
   "closingMinutes": 3,
-  "scenario": "Em um atendimento fictício, o responsável menciona dificuldade com transporte. As anotações registram quatro faltas, sem informar fonte ou período. A equipe propõe novo contato na próxima semana. Uma pessoa comenta: “ele não quer nada”. Não há informação sobre acordo, causa confirmada ou procedimento administrativo aplicável.",
+  "scenario": "Lívia, profissional fictícia da CTP, quer organizar notas de atendimento em uma minuta. As notas dizem: “Responsável relata dificuldade com transporte. Quatro faltas, sem período informado. Equipe propôs novo contato na próxima semana.” Caio ajuda a elaborar e testar as instruções. Pingo apresenta rascunhos preparados para análise. Não há chamada a um modelo de IA nesta versão.",
   "steps": [
     {
-      "id": "informacoes",
+      "id": "prompt",
       "order": 1,
       "durationMinutes": 4,
-      "question": "Que informação deve ser esclarecida primeiro?",
+      "concept": "Elaborar instruções",
+      "character": "Lívia",
+      "question": "Qual pedido dá melhores condições para a IA executar esta tarefa?",
+      "stimulus": "Demanda: organizar as notas fictícias em uma minuta fiel, sem completar informações ausentes.",
       "options": [
         {
           "id": "a",
-          "text": "Concluir que a causa das faltas é o transporte.",
-          "feedback": "O relato sugere uma hipótese. Não confirma a causa das faltas."
+          "text": "Faça um relatório perfeito e bem profissional.",
+          "feedback": "Adjetivos sobre qualidade não especificam material de base, limites ou resultado esperado."
         },
         {
           "id": "b",
-          "text": "Conferir a fonte e o período das faltas e ouvir o estudante.",
-          "feedback": "Isso permite verificar o registro e conhecer o contexto sem antecipar conclusões."
+          "text": "Com base apenas nas notas fornecidas, organize relato, informações a conferir e propostas. Não acrescente fatos. Indique lacunas.",
+          "feedback": "O pedido explicita a tarefa, a fonte e os limites. Isso reduz ambiguidades, mas não garante fidelidade."
         },
         {
           "id": "c",
-          "text": "Assumir que a fala sobre desinteresse descreve um fato.",
-          "feedback": "O julgamento não demonstra intenção nem explica as ausências."
+          "text": "Atue como o maior especialista em educação e decida o que aconteceu.",
+          "feedback": "Atribuir um papel de especialista não fornece evidências nem garante precisão."
         }
       ],
       "recommendedOptionId": "b",
-      "discussion": "Quais perguntas caberiam em uma escuta acolhedora?"
+      "discussion": "Qual instrução ajuda a impedir que uma proposta seja escrita como acordo?",
+      "example": "Use somente as notas fornecidas. Separe relatos, informações a conferir e propostas. Não apresente propostas como acordos. Não preencha lacunas."
     },
     {
-      "id": "registro",
+      "id": "contexto",
       "order": 2,
       "durationMinutes": 4,
-      "question": "Qual minuta representa melhor as anotações?",
+      "concept": "Selecionar contexto",
+      "character": "Caio",
+      "question": "Que material ajuda a tornar a resposta verificável?",
+      "stimulus": "O modelo recebe apenas “houve um atendimento”. A tarefa exige uma minuta fiel às notas.",
       "options": [
         {
           "id": "a",
-          "text": "A família confirmou a causa e acordou retorno na próxima semana.",
-          "feedback": "As anotações não confirmam causa nem acordo."
+          "text": "Pedir um texto mais longo para preencher o contexto ausente.",
+          "feedback": "Comprimento não substitui informação. Pode ampliar conteúdo sem base."
         },
         {
           "id": "b",
-          "text": "O estudante é desinteressado e apresenta faltas injustificadas.",
-          "feedback": "O texto acrescenta julgamentos e uma classificação sem base no material."
+          "text": "Pedir para adivinhar os detalhes mais prováveis.",
+          "feedback": "Uma continuação plausível pode introduzir fatos que não ocorreram."
         },
         {
           "id": "c",
-          "text": "O responsável relatou dificuldade com transporte. As notas mencionam quatro faltas a conferir. A equipe propôs novo contato.",
-          "feedback": "Preserva a atribuição do relato, a pendência de conferência e a diferença entre proposta e acordo."
+          "text": "Fornecer as notas fictícias necessárias e um formato de saída com lacunas explícitas.",
+          "feedback": "Contexto relevante e formato ajudam a conferir o resultado contra a fonte, sem exigir dados reais neste exercício."
         }
       ],
       "recommendedOptionId": "c",
-      "discussion": "Que parte de uma minuta de IA você confrontaria com as notas?"
+      "discussion": "O que é contexto necessário e o que seria informação excessiva?",
+      "example": "Fonte fictícia delimitada: <notas>Responsável relata dificuldade com transporte. Quatro faltas, sem período informado. Equipe propôs novo contato na próxima semana.</notas>\nFormato: informação | origem nas notas | pendência.\nSe faltar informação, escreva “não informado”."
     },
     {
-      "id": "compartilhamento",
+      "id": "confiabilidade",
       "order": 3,
       "durationMinutes": 4,
-      "question": "Como preparar uma comunicação para quem participará do acompanhamento?",
+      "concept": "Encontrar acréscimos sem base",
+      "character": "Pingo",
+      "question": "Qual problema você encontra nesta resposta preparada?",
+      "stimulus": "“A família confirmou que o transporte causou todas as faltas de outubro. Ficou acordado retorno na terça-feira, conforme a Portaria CTP 99/2026.”\n\nA portaria é fictícia e inventada para este exercício. Compare com as notas do caso.",
       "options": [
         {
           "id": "a",
-          "text": "Selecionar o necessário à finalidade e conferir destinatários e acesso com o procedimento autorizado.",
-          "feedback": "Compartilhar exige finalidade e autorização; a escolha não define sozinha quem pode receber."
+          "text": "O texto acrescenta causa, período, acordo, data e referência que não constam nas notas.",
+          "feedback": "São acréscimos sem suporte no material fornecido. A resposta soa fluente, mas não é fiel à fonte."
         },
         {
           "id": "b",
-          "text": "Enviar todo o histórico para todos os docentes.",
-          "feedback": "A circulação ampla não se justifica apenas pela existência do registro."
+          "text": "Nenhum: a linguagem formal confirma que a informação é confiável.",
+          "feedback": "Estilo formal não comprova fatos, referências ou fidelidade."
         },
         {
           "id": "c",
-          "text": "Trocar nomes por iniciais e enviar o relato completo.",
-          "feedback": "Detalhes do contexto ainda podem permitir identificação."
+          "text": "Basta pedir à IA que diga se tem certeza.",
+          "feedback": "Uma nova afirmação de confiança não substitui a verificação independente das informações."
         }
       ],
       "recommendedOptionId": "a",
-      "discussion": "O que o destinatário precisa saber para executar sua parte?"
+      "discussion": "Que afirmação você verificaria primeiro e em qual fonte?",
+      "example": "Anote cada afirmação e o trecho que a sustenta. Se não houver suporte, marque “sem base nas notas” e retire ou encaminhe para verificação. Não aceite a portaria inventada como norma real."
     },
     {
-      "id": "sei",
+      "id": "iteracao",
       "order": 4,
       "durationMinutes": 3,
-      "question": "Qual é o próximo passo para orientar a formalização?",
+      "concept": "Refinar o pedido",
+      "character": "Caio",
+      "question": "Como reformular a instrução após detectar os acréscimos?",
+      "stimulus": "Primeiro pedido: “Faça um relatório profissional”. O rascunho transformou relato em causa confirmada e proposta em acordo.",
       "options": [
         {
           "id": "a",
-          "text": "Criar automaticamente um processo com tipo sugerido pela IA.",
-          "feedback": "A ferramenta não dispõe de procedimento validado para escolher o tipo."
+          "text": "Escreva com mais segurança e menos ressalvas.",
+          "feedback": "Reduzir ressalvas pode ocultar lacunas sem corrigir o problema."
         },
         {
           "id": "b",
-          "text": "Verificar se cabe formalização no SEI e consultar o procedimento vigente com a unidade responsável.",
-          "feedback": "A simulação não define tipo de processo, documento, nível de acesso ou destinatário. Esses pontos dependem de referência institucional."
+          "text": "Reescreva usando somente as notas. Atribua o relato ao responsável. Preserve a proposta como proposta. Liste o que não foi informado.",
+          "feedback": "A revisão aponta erros concretos e define o critério para a nova versão. O resultado ainda precisa de conferência."
         },
         {
           "id": "c",
-          "text": "Escolher o mesmo caminho usado por outra instituição.",
-          "feedback": "Um exemplo externo não comprova que o procedimento se aplica ao IFCE."
+          "text": "Gere várias versões e escolha a mais elegante.",
+          "feedback": "Comparar versões só pela elegância não testa fidelidade às notas."
         }
       ],
       "recommendedOptionId": "b",
-      "discussion": "Qual referência e qual responsável precisamos consultar antes de orientar os cliques?"
+      "discussion": "Como distinguir melhoria da redação de correção factual?",
+      "example": "Exemplo editorial revisado: “O responsável relatou dificuldade com transporte. As notas mencionam quatro faltas, sem período informado. A equipe propôs novo contato na próxima semana. Não há data definida nem acordo registrado nas notas.”"
     },
     {
-      "id": "retorno",
+      "id": "avaliacao",
       "order": 5,
       "durationMinutes": 3,
-      "question": "O que falta antes de considerar o encaminhamento acompanhado?",
+      "concept": "Avaliar o resultado",
+      "character": "Lívia",
+      "question": "Como decidir se o uso da IA ajudou nesta tarefa?",
+      "stimulus": "Você tem uma minuta original e outra revisada. O objetivo é produzir um registro fiel com menos esforço total.",
       "options": [
         {
           "id": "a",
-          "text": "Ter um texto bem escrito.",
-          "feedback": "A qualidade do texto não assegura execução ou retorno."
+          "text": "Contar apenas os segundos que a IA levou para gerar o texto.",
+          "feedback": "A geração é uma parte do esforço; preparação, conferência e correção também contam."
         },
         {
           "id": "b",
-          "text": "Concluir que o envio encerrou o acompanhamento.",
-          "feedback": "O envio é uma etapa; não comprova o resultado da ação."
+          "text": "Escolher o texto com mais palavras e aparência mais formal.",
+          "feedback": "Extensão e formalidade não medem precisão ou utilidade."
         },
         {
           "id": "c",
-          "text": "Confirmar responsável, prazo e forma de retorno e registrar os acordos efetivamente feitos.",
-          "feedback": "O acompanhamento precisa permitir verificar a execução e reavaliar a ação com novas informações."
+          "text": "Conferir cada afirmação com as notas e comparar qualidade e tempo total de preparação, geração e revisão.",
+          "feedback": "O ganho depende da tarefa inteira e de um resultado adequado. Um bom pedido não elimina a responsabilidade pela revisão."
         }
       ],
       "recommendedOptionId": "c",
-      "discussion": "Como a equipe perceberia que precisa rever a ação?"
+      "discussion": "Qual critério você usaria para comparar duas respostas?",
+      "example": "Checklist: fidelidade à fonte; lacunas visíveis; ausência de referências inventadas; formato útil; revisão concluída; tempo total avaliado."
     }
-  ]
+  ],
+  "focus": "generative-ai-literacy",
+  "examplesOrigin": "prepared-not-live"
 }

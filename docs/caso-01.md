@@ -1,107 +1,135 @@
-# Caso 01 — Faltas e relato de dificuldade com transporte
+# Laboratório de IA generativa — roteiro de 23 minutos
 
-**Simulação pedagógica. Procedimentos do SEI pendentes de validação institucional.**
+Foco: uso e avaliação de IA generativa, com tarefas da CTP como contexto. Todos os textos são exemplos editoriais preparados, sem geração ao vivo. Personagens fictícios: Lívia (demanda de trabalho), Caio (mediação técnica) e Pingo (rascunhos a verificar).
 
-Duração: 23 minutos. Abertura: 2; decisões: 18; encerramento: 3.
+## Abertura (2 min)
 
-## Abertura
+Lívia, profissional fictícia da CTP, quer organizar notas de atendimento em uma minuta. As notas dizem: “Responsável relata dificuldade com transporte. Quatro faltas, sem período informado. Equipe propôs novo contato na próxima semana.” Caio ajuda a elaborar e testar as instruções. Pingo apresenta rascunhos preparados para análise. Não há chamada a um modelo de IA nesta versão.
 
-Em um atendimento fictício, o responsável menciona dificuldade com transporte. As anotações registram quatro faltas, sem informar fonte ou período. A equipe propõe novo contato na próxima semana. Uma pessoa comenta: “ele não quer nada”. Não há informação sobre acordo, causa confirmada ou procedimento administrativo aplicável.
+## 1. Elaborar instruções (4 min)
 
-Peça participação por escolhas, sem relatos de pessoas identificáveis. Não há ranking. Após cada pergunta: abrir votação, encerrar, mostrar agregados, ouvir justificativas e liberar explicação. Na falta de conexão, usar levantamento de mãos.
+Demanda: organizar as notas fictícias em uma minuta fiel, sem completar informações ausentes.
 
-## 1. Que informação deve ser esclarecida primeiro? (4 min)
+**Qual pedido dá melhores condições para a IA executar esta tarefa?**
 
-**A) Concluir que a causa das faltas é o transporte.**
+A) Faça um relatório perfeito e bem profissional.
 
-Comentário: O relato sugere uma hipótese. Não confirma a causa das faltas.
+Comentário: Adjetivos sobre qualidade não especificam material de base, limites ou resultado esperado.
 
-**B) Conferir a fonte e o período das faltas e ouvir o estudante.**
+B) Com base apenas nas notas fornecidas, organize relato, informações a conferir e propostas. Não acrescente fatos. Indique lacunas.
 
-Comentário: Isso permite verificar o registro e conhecer o contexto sem antecipar conclusões.
+Comentário: O pedido explicita a tarefa, a fonte e os limites. Isso reduz ambiguidades, mas não garante fidelidade.
 
-**C) Assumir que a fala sobre desinteresse descreve um fato.**
+C) Atue como o maior especialista em educação e decida o que aconteceu.
 
-Comentário: O julgamento não demonstra intenção nem explica as ausências.
+Comentário: Atribuir um papel de especialista não fornece evidências nem garante precisão.
 
-Alternativa de referência: **B**.
+Referência: B.
 
-Mediação: Quais perguntas caberiam em uma escuta acolhedora?
+Discussão: Qual instrução ajuda a impedir que uma proposta seja escrita como acordo?
 
-## 2. Qual minuta representa melhor as anotações? (4 min)
+Material de conferência: Use somente as notas fornecidas. Separe relatos, informações a conferir e propostas. Não apresente propostas como acordos. Não preencha lacunas.
 
-**A) A família confirmou a causa e acordou retorno na próxima semana.**
+## 2. Selecionar contexto (4 min)
 
-Comentário: As anotações não confirmam causa nem acordo.
+O modelo recebe apenas “houve um atendimento”. A tarefa exige uma minuta fiel às notas.
 
-**B) O estudante é desinteressado e apresenta faltas injustificadas.**
+**Que material ajuda a tornar a resposta verificável?**
 
-Comentário: O texto acrescenta julgamentos e uma classificação sem base no material.
+A) Pedir um texto mais longo para preencher o contexto ausente.
 
-**C) O responsável relatou dificuldade com transporte. As notas mencionam quatro faltas a conferir. A equipe propôs novo contato.**
+Comentário: Comprimento não substitui informação. Pode ampliar conteúdo sem base.
 
-Comentário: Preserva a atribuição do relato, a pendência de conferência e a diferença entre proposta e acordo.
+B) Pedir para adivinhar os detalhes mais prováveis.
 
-Alternativa de referência: **C**.
+Comentário: Uma continuação plausível pode introduzir fatos que não ocorreram.
 
-Mediação: Que parte de uma minuta de IA você confrontaria com as notas?
+C) Fornecer as notas fictícias necessárias e um formato de saída com lacunas explícitas.
 
-## 3. Como preparar uma comunicação para quem participará do acompanhamento? (4 min)
+Comentário: Contexto relevante e formato ajudam a conferir o resultado contra a fonte, sem exigir dados reais neste exercício.
 
-**A) Selecionar o necessário à finalidade e conferir destinatários e acesso com o procedimento autorizado.**
+Referência: C.
 
-Comentário: Compartilhar exige finalidade e autorização; a escolha não define sozinha quem pode receber.
+Discussão: O que é contexto necessário e o que seria informação excessiva?
 
-**B) Enviar todo o histórico para todos os docentes.**
+Material de conferência: Fonte fictícia delimitada: <notas>Responsável relata dificuldade com transporte. Quatro faltas, sem período informado. Equipe propôs novo contato na próxima semana.</notas>
+Formato: informação | origem nas notas | pendência.
+Se faltar informação, escreva “não informado”.
 
-Comentário: A circulação ampla não se justifica apenas pela existência do registro.
+## 3. Encontrar acréscimos sem base (4 min)
 
-**C) Trocar nomes por iniciais e enviar o relato completo.**
+“A família confirmou que o transporte causou todas as faltas de outubro. Ficou acordado retorno na terça-feira, conforme a Portaria CTP 99/2026.”
 
-Comentário: Detalhes do contexto ainda podem permitir identificação.
+A portaria é fictícia e inventada para este exercício. Compare com as notas do caso.
 
-Alternativa de referência: **A**.
+**Qual problema você encontra nesta resposta preparada?**
 
-Mediação: O que o destinatário precisa saber para executar sua parte?
+A) O texto acrescenta causa, período, acordo, data e referência que não constam nas notas.
 
-## 4. Qual é o próximo passo para orientar a formalização? (3 min)
+Comentário: São acréscimos sem suporte no material fornecido. A resposta soa fluente, mas não é fiel à fonte.
 
-**A) Criar automaticamente um processo com tipo sugerido pela IA.**
+B) Nenhum: a linguagem formal confirma que a informação é confiável.
 
-Comentário: A ferramenta não dispõe de procedimento validado para escolher o tipo.
+Comentário: Estilo formal não comprova fatos, referências ou fidelidade.
 
-**B) Verificar se cabe formalização no SEI e consultar o procedimento vigente com a unidade responsável.**
+C) Basta pedir à IA que diga se tem certeza.
 
-Comentário: A simulação não define tipo de processo, documento, nível de acesso ou destinatário. Esses pontos dependem de referência institucional.
+Comentário: Uma nova afirmação de confiança não substitui a verificação independente das informações.
 
-**C) Escolher o mesmo caminho usado por outra instituição.**
+Referência: A.
 
-Comentário: Um exemplo externo não comprova que o procedimento se aplica ao IFCE.
+Discussão: Que afirmação você verificaria primeiro e em qual fonte?
 
-Alternativa de referência: **B**.
+Material de conferência: Anote cada afirmação e o trecho que a sustenta. Se não houver suporte, marque “sem base nas notas” e retire ou encaminhe para verificação. Não aceite a portaria inventada como norma real.
 
-Mediação: Qual referência e qual responsável precisamos consultar antes de orientar os cliques?
+## 4. Refinar o pedido (3 min)
 
-## 5. O que falta antes de considerar o encaminhamento acompanhado? (3 min)
+Primeiro pedido: “Faça um relatório profissional”. O rascunho transformou relato em causa confirmada e proposta em acordo.
 
-**A) Ter um texto bem escrito.**
+**Como reformular a instrução após detectar os acréscimos?**
 
-Comentário: A qualidade do texto não assegura execução ou retorno.
+A) Escreva com mais segurança e menos ressalvas.
 
-**B) Concluir que o envio encerrou o acompanhamento.**
+Comentário: Reduzir ressalvas pode ocultar lacunas sem corrigir o problema.
 
-Comentário: O envio é uma etapa; não comprova o resultado da ação.
+B) Reescreva usando somente as notas. Atribua o relato ao responsável. Preserve a proposta como proposta. Liste o que não foi informado.
 
-**C) Confirmar responsável, prazo e forma de retorno e registrar os acordos efetivamente feitos.**
+Comentário: A revisão aponta erros concretos e define o critério para a nova versão. O resultado ainda precisa de conferência.
 
-Comentário: O acompanhamento precisa permitir verificar a execução e reavaliar a ação com novas informações.
+C) Gere várias versões e escolha a mais elegante.
 
-Alternativa de referência: **C**.
+Comentário: Comparar versões só pela elegância não testa fidelidade às notas.
 
-Mediação: Como a equipe perceberia que precisa rever a ação?
+Referência: B.
+
+Discussão: Como distinguir melhoria da redação de correção factual?
+
+Material de conferência: Exemplo editorial revisado: “O responsável relatou dificuldade com transporte. As notas mencionam quatro faltas, sem período informado. A equipe propôs novo contato na próxima semana. Não há data definida nem acordo registrado nas notas.”
+
+## 5. Avaliar o resultado (3 min)
+
+Você tem uma minuta original e outra revisada. O objetivo é produzir um registro fiel com menos esforço total.
+
+**Como decidir se o uso da IA ajudou nesta tarefa?**
+
+A) Contar apenas os segundos que a IA levou para gerar o texto.
+
+Comentário: A geração é uma parte do esforço; preparação, conferência e correção também contam.
+
+B) Escolher o texto com mais palavras e aparência mais formal.
+
+Comentário: Extensão e formalidade não medem precisão ou utilidade.
+
+C) Conferir cada afirmação com as notas e comparar qualidade e tempo total de preparação, geração e revisão.
+
+Comentário: O ganho depende da tarefa inteira e de um resultado adequado. Um bom pedido não elimina a responsabilidade pela revisão.
+
+Referência: C.
+
+Discussão: Qual critério você usaria para comparar duas respostas?
+
+Material de conferência: Checklist: fidelidade à fonte; lacunas visíveis; ausência de referências inventadas; formato útil; revisão concluída; tempo total avaliado.
 
 ## Encerramento (3 min)
 
-Checklist: fatos conferidos; relatos atribuídos; propostas diferenciadas de acordos; finalidade e acesso definidos; procedimento aplicável consultado; responsável e retorno confirmados.
-
-Pergunta de saída: qual desses pontos costuma exigir mais atenção na sua rotina? Não coletar casos reais.
+Retome objetivo, contexto, limites, conferência e avaliação do esforço total. Convide a adaptar o pedido a uma tarefa de baixo risco. Decisões pedagógicas e procedimentos oficiais ficam com os profissionais responsáveis.

@@ -19,11 +19,10 @@ test('facilitator schedule fits the announced activity',()=>{
  assert.equal(total,c.durationMinutes);
  assert.ok(total>=20&&total<=25);
 });
-test('unvalidated institutional content remains explicitly simulated',()=>{
+test('activity teaches generative AI with explicitly prepared examples',()=>{
  assert.equal(c.fictional,true);
- assert.equal(c.institutionalValidation,'pending');
- const sei=c.steps.find(s=>s.id==='sei');
- const recommended=sei.options.find(o=>o.id===sei.recommendedOptionId);
- assert.match(recommended.text,/verificar|consultar/i);
- assert.match(recommended.feedback,/referência institucional/);
+ assert.equal(c.focus,'generative-ai-literacy');
+ assert.equal(c.examplesOrigin,'prepared-not-live');
+ assert.deepEqual(c.steps.map(s=>s.id),['prompt','contexto','confiabilidade','iteracao','avaliacao']);
+ for(const step of c.steps){assert.ok(step.stimulus.trim());assert.ok(step.example.trim());assert.ok(['Lívia','Caio','Pingo'].includes(step.character));}
 });

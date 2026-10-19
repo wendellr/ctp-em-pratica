@@ -27,3 +27,7 @@ Repositório separado dos slides. Destino remoto pendente de indicação do resp
 ## D007 — GitHub e GitHub Pages
 
 Destino autorizado pelo responsável: conta pessoal no GitHub e publicação pelo GitHub Pages. O protótipo individual usa arquivos estáticos, sem dependências. A sincronização coletiva depende de serviço adicional a definir. O conteúdo publicado é exclusivamente fictício.
+
+## D008 — Laboratório de IA generativa
+
+A pedido do professor, o caso passa a ensinar instruções, contexto, detecção de acréscimos sem base, refinamento e avaliação de respostas. Lívia, Caio e Pingo são personagens fictícios ilustrados por IA. Os exemplos são preparados, sem geração ao vivo.
