@@ -23,3 +23,7 @@ Sem nome, e-mail ou campo livre de atendimento. O controle de voto poderá usar 
 ## D006 — Histórico local antes do remoto
 
 Repositório separado dos slides. Destino remoto pendente de indicação do responsável. Não publicar ou escolher licença de distribuição por inferência.
+
+## D007 — GitHub e GitHub Pages
+
+Destino autorizado pelo responsável: conta pessoal no GitHub e publicação pelo GitHub Pages. O protótipo individual usa arquivos estáticos, sem dependências. A sincronização coletiva depende de serviço adicional a definir. O conteúdo publicado é exclusivamente fictício.

@@ -6,7 +6,7 @@ Responsável pela proposta: **Prof. Antonio Wendell de Oliveira Rodrigues — LI
 
 ## Estado atual
 
-Etapa 1: roteiro e conteúdo inicial preparados para revisão. Ainda não há aplicação, votação em tempo real, hospedagem ou QR code de participação. Este repositório é local e ainda não tem remoto configurado.
+Etapa 1: roteiro e conteúdo inicial preparados para revisão. Há um protótipo individual em HTML/JavaScript, sem votação em tempo real ou QR code de sessão. Publicação no GitHub Pages em preparação.
 
 ## Primeira entrega planejada
 
@@ -36,3 +36,7 @@ npm test
 Mudanças pequenas em branches próprias, revisão do resultado e histórico de alterações. As tarefas ficam no roadmap até definirmos o remoto; depois poderão virar issues. Publicação, hospedagem e serviços pagos terão destino e condições definidos com o responsável. Não incluir segredos, dados pessoais reais ou materiais internos sem autorização.
 
 Nenhuma licença de distribuição foi escolhida. Não presumir autorização para publicar este conteúdo sob licença aberta.
+
+## Protótipo individual
+
+`index.html` e `app.js` apresentam o caso em cinco etapas. Escolhas e estado ficam somente na memória da aba; recarregar reinicia a atividade. Não há contagem coletiva ou controle de apresentador. O conteúdo é carregado de `content/caso-01.json` por endereço HTTP(S).
