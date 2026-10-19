@@ -1,0 +1,13 @@
+{
+  "name": "ctp-em-pratica",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Conteúdo e especificação da ferramenta interativa para formação das CTPs",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test"
+  }
+}

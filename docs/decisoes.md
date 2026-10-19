@@ -1,0 +1,25 @@
+# Decisões
+
+## D001 — Um único caso inicial
+
+Cinco decisões sobre faltas e relato de dificuldade com transporte. Uma experiência completa antes de ampliar a biblioteca.
+
+## D002 — IA sem geração ao vivo no MVP
+
+Respostas e explicações previamente revisadas. A palestra discute uso de IA, mas não depende de API de geração, pagamento ou resposta imprevisível.
+
+## D003 — SEI como orientação em simulação
+
+Sem integração ou automação. Etapas oficiais só entram após validação. Até lá, perguntar como localizar e conferir o procedimento, em vez de inventar passos locais.
+
+## D004 — Tecnologia da aplicação em aberto
+
+Repositório inicial contém conteúdo, documentação e testes nativos do Node. Framework, banco e hospedagem serão escolhidos ao definir o protótipo e a sincronização. Esta base não é um servidor nem um aplicativo de votação.
+
+## D005 — Participação sem identificação nominal
+
+Sem nome, e-mail ou campo livre de atendimento. O controle de voto poderá usar identificador aleatório de sessão; avaliar retenção e registros da infraestrutura antes de anunciar privacidade aos participantes.
+
+## D006 — Histórico local antes do remoto
+
+Repositório separado dos slides. Destino remoto pendente de indicação do responsável. Não publicar ou escolher licença de distribuição por inferência.

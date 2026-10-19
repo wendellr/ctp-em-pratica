@@ -1,0 +1,137 @@
+{
+  "id": "caso-01",
+  "title": "Faltas e relato de dificuldade com transporte",
+  "fictional": true,
+  "institutionalValidation": "pending",
+  "durationMinutes": 23,
+  "openingMinutes": 2,
+  "closingMinutes": 3,
+  "scenario": "Em um atendimento fictício, o responsável menciona dificuldade com transporte. As anotações registram quatro faltas, sem informar fonte ou período. A equipe propõe novo contato na próxima semana. Uma pessoa comenta: “ele não quer nada”. Não há informação sobre acordo, causa confirmada ou procedimento administrativo aplicável.",
+  "steps": [
+    {
+      "id": "informacoes",
+      "order": 1,
+      "durationMinutes": 4,
+      "question": "Que informação deve ser esclarecida primeiro?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Concluir que a causa das faltas é o transporte.",
+          "feedback": "O relato sugere uma hipótese. Não confirma a causa das faltas."
+        },
+        {
+          "id": "b",
+          "text": "Conferir a fonte e o período das faltas e ouvir o estudante.",
+          "feedback": "Isso permite verificar o registro e conhecer o contexto sem antecipar conclusões."
+        },
+        {
+          "id": "c",
+          "text": "Assumir que a fala sobre desinteresse descreve um fato.",
+          "feedback": "O julgamento não demonstra intenção nem explica as ausências."
+        }
+      ],
+      "recommendedOptionId": "b",
+      "discussion": "Quais perguntas caberiam em uma escuta acolhedora?"
+    },
+    {
+      "id": "registro",
+      "order": 2,
+      "durationMinutes": 4,
+      "question": "Qual minuta representa melhor as anotações?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A família confirmou a causa e acordou retorno na próxima semana.",
+          "feedback": "As anotações não confirmam causa nem acordo."
+        },
+        {
+          "id": "b",
+          "text": "O estudante é desinteressado e apresenta faltas injustificadas.",
+          "feedback": "O texto acrescenta julgamentos e uma classificação sem base no material."
+        },
+        {
+          "id": "c",
+          "text": "O responsável relatou dificuldade com transporte. As notas mencionam quatro faltas a conferir. A equipe propôs novo contato.",
+          "feedback": "Preserva a atribuição do relato, a pendência de conferência e a diferença entre proposta e acordo."
+        }
+      ],
+      "recommendedOptionId": "c",
+      "discussion": "Que parte de uma minuta de IA você confrontaria com as notas?"
+    },
+    {
+      "id": "compartilhamento",
+      "order": 3,
+      "durationMinutes": 4,
+      "question": "Como preparar uma comunicação para quem participará do acompanhamento?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Selecionar o necessário à finalidade e conferir destinatários e acesso com o procedimento autorizado.",
+          "feedback": "Compartilhar exige finalidade e autorização; a escolha não define sozinha quem pode receber."
+        },
+        {
+          "id": "b",
+          "text": "Enviar todo o histórico para todos os docentes.",
+          "feedback": "A circulação ampla não se justifica apenas pela existência do registro."
+        },
+        {
+          "id": "c",
+          "text": "Trocar nomes por iniciais e enviar o relato completo.",
+          "feedback": "Detalhes do contexto ainda podem permitir identificação."
+        }
+      ],
+      "recommendedOptionId": "a",
+      "discussion": "O que o destinatário precisa saber para executar sua parte?"
+    },
+    {
+      "id": "sei",
+      "order": 4,
+      "durationMinutes": 3,
+      "question": "Qual é o próximo passo para orientar a formalização?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Criar automaticamente um processo com tipo sugerido pela IA.",
+          "feedback": "A ferramenta não dispõe de procedimento validado para escolher o tipo."
+        },
+        {
+          "id": "b",
+          "text": "Verificar se cabe formalização no SEI e consultar o procedimento vigente com a unidade responsável.",
+          "feedback": "A simulação não define tipo de processo, documento, nível de acesso ou destinatário. Esses pontos dependem de referência institucional."
+        },
+        {
+          "id": "c",
+          "text": "Escolher o mesmo caminho usado por outra instituição.",
+          "feedback": "Um exemplo externo não comprova que o procedimento se aplica ao IFCE."
+        }
+      ],
+      "recommendedOptionId": "b",
+      "discussion": "Qual referência e qual responsável precisamos consultar antes de orientar os cliques?"
+    },
+    {
+      "id": "retorno",
+      "order": 5,
+      "durationMinutes": 3,
+      "question": "O que falta antes de considerar o encaminhamento acompanhado?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ter um texto bem escrito.",
+          "feedback": "A qualidade do texto não assegura execução ou retorno."
+        },
+        {
+          "id": "b",
+          "text": "Concluir que o envio encerrou o acompanhamento.",
+          "feedback": "O envio é uma etapa; não comprova o resultado da ação."
+        },
+        {
+          "id": "c",
+          "text": "Confirmar responsável, prazo e forma de retorno e registrar os acordos efetivamente feitos.",
+          "feedback": "O acompanhamento precisa permitir verificar a execução e reavaliar a ação com novas informações."
+        }
+      ],
+      "recommendedOptionId": "c",
+      "discussion": "Como a equipe perceberia que precisa rever a ação?"
+    }
+  ]
+}
