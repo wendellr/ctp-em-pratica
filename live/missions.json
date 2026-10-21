@@ -2,7 +2,7 @@
   {
     "title": "Missão 1 · Um registro pronto para usar?",
     "character": "Pingo",
-    "setup": "Simulação de atendimento da CTP. Notas: responsável relata dificuldade com transporte; estudante tem quatro faltas; estudante ainda não foi ouvido; equipe sugeriu novo contato. Pingo organizou: “No atendimento à família, identificou-se uma dificuldade de transporte que explica as quatro faltas do estudante. A equipe propôs novo contato com os responsáveis para acompanhar a situação.”",
+    "setup": "Simulação de atendimento da CTP. Anotações: responsável relata dificuldade com transporte; estudante tem quatro faltas; estudante ainda não foi ouvido; equipe sugeriu novo contato. Pingo organizou: “No atendimento à família, identificou-se uma dificuldade de transporte que explica as quatro faltas do estudante. A equipe propôs novo contato com os responsáveis para acompanhar a situação.”",
     "question": "Você usaria esse registro no acompanhamento?",
     "options": [
       {
@@ -24,16 +24,16 @@
       "1min: leia a situação e o rascunho em voz alta. Diga que é uma simulação de rotina da CTP, com exemplos de IA preparados e dados fictícios; não é um procedimento oficial do IFCE.",
       "30s: abra a primeira votação. Peça uma escolha, mesmo que provisória, e encerre manualmente.",
       "1min: ouça duas justificativas de até 20s. Pergunte: O que mudou entre a anotação e a redação? Precisamos esperar a próxima conversa para registrar o que já foi relatado? Não antecipe a pista.",
-      "1min30: revele a pista e conduza a demonstração: destaque “explica as quatro faltas”. Troque por uma atribuição à fonte e uma lacuna explícita. Mostre o pedido: “Organize estas notas em um registro breve. Diferencie relatos, fatos registrados e pontos a esclarecer. Não acrescente causas nem acordos.”",
+      "1min30: revele a pista e conduza a demonstração: destaque “explica as quatro faltas”. Troque por uma atribuição à fonte e uma lacuna explícita. Mostre o pedido: “Organize estas anotações em um registro breve. Diferencie relatos, fatos registrados e pontos a esclarecer. Não acrescente causas nem acordos.”",
       "30s: abra a segunda votação. É possível manter ou mudar de posição. Encerre manualmente.",
       "1min: revele a comparação. Ouça uma justificativa de até 20s e comente o motivo, sem tratar mudança de voto como acerto.",
-      "1min30: conclua: Usar IA para organizar registros pode ajudar. Preserve quem relatou o quê e confira cada afirmação. Na demonstração, use notas fictícias; em trabalho real, escolha ambiente autorizado e informações adequadas ao objetivo. Pergunte onde essa situação aparece no trabalho da equipe; aceite uma fala breve, sem relatos identificáveis."
+      "1min30: conclua: Usar IA para organizar registros pode ajudar. Preserve quem relatou o quê e confira cada afirmação. Na demonstração, use anotações fictícias; em trabalho real, escolha ambiente autorizado e informações adequadas ao objetivo. Pergunte onde essa situação aparece no trabalho da equipe; aceite uma fala breve, sem relatos identificáveis."
     ]
   },
   {
     "title": "Missão 2 · Uma pauta que ajuda a equipe?",
     "character": "Caio",
-    "setup": "Simulação: a CTP prepara 30 minutos com docentes de uma turma de curso técnico integrado. Notas: entregas atrasadas; avaliações concentradas na mesma semana; alguns estudantes trabalham; causas ainda não discutidas. Pedido: “Monte uma pauta com encaminhamentos.” Caio recebeu da IA: “5min: panorama; 10min: estratégias de estudo dos estudantes; 10min: plano individual de recuperação; 5min: responsáveis e prazos.”",
+    "setup": "Simulação: a CTP prepara 30 minutos com docentes de uma turma de curso técnico integrado. Anotações: entregas atrasadas; avaliações concentradas na mesma semana; alguns estudantes trabalham; causas ainda não discutidas. Pedido: “Monte uma pauta com encaminhamentos.” Caio recebeu da IA: “5min: panorama; 10min: estratégias de estudo dos estudantes; 10min: plano individual de recuperação; 5min: responsáveis e prazos.”",
     "question": "Qual próximo pedido você faria à IA?",
     "options": [
       {
@@ -49,8 +49,8 @@
         "text": "“Reorganize a pauta para investigar as hipóteses antes de propor ações.”"
       }
     ],
-    "evidence": "Nas notas, os estudantes citaram a concentração das avaliações; os docentes ainda não compararam os calendários. O rascunho parece executável, mas concentra a solução nos estudantes e antecipa um plano sem essa discussão.",
-    "explanation": "C atende melhor ao objetivo exploratório deste encontro. A pode gerar material útil depois; B melhora o tom, mas não muda o foco. Pedido refinado: “Prepare uma pauta de 30 minutos para a CTP e os docentes examinarem estas notas. Separe observações de hipóteses; inclua perguntas sobre calendário, condições de participação e estratégias de estudo. Reserve tempo para pactuar próximos passos, sem apresentar decisões como já tomadas.” Exemplo: 5min para observações, 15min para hipóteses e calendário, 10min para próximos passos. O grupo ajusta o rascunho; não se trata de protocolo do IFCE.",
+    "evidence": "Nas anotações, os estudantes citaram a concentração das avaliações; os docentes ainda não compararam os calendários. O rascunho parece executável, mas concentra a solução nos estudantes e antecipa um plano sem essa discussão.",
+    "explanation": "C atende melhor ao objetivo exploratório deste encontro. A pode gerar material útil depois; B melhora o tom, mas não muda o foco. Pedido refinado: “Prepare uma pauta de 30 minutos para a CTP e os docentes examinarem estas anotações. Separe observações de hipóteses; inclua perguntas sobre calendário, condições de participação e estratégias de estudo. Reserve tempo para pactuar próximos passos, sem apresentar decisões como já tomadas.” Exemplo: 5min para observações, 15min para hipóteses e calendário, 10min para próximos passos. O grupo ajusta o rascunho; não se trata de protocolo do IFCE.",
     "guide": [
       "1min: leia a situação e o rascunho em voz alta. Diga que é uma simulação de rotina da CTP, com exemplos de IA preparados e dados fictícios; não é um procedimento oficial do IFCE.",
       "30s: abra a primeira votação. Peça uma escolha, mesmo que provisória, e encerre manualmente.",

@@ -59,3 +59,7 @@ A pedido do professor, simplificadas as três missões: identificar um acréscim
 ## D016 — Situações profissionais com revisão contextual
 
 Em 21/10/2026, a pedido do professor, substituídos os exercícios excessivamente óbvios por rascunhos úteis com limites sutis: registro de atendimento que confirma causa sem fonte; pauta que antecipa soluções; síntese que confunde redução absoluta com melhora entre grupos diferentes. Situações fictícias inspiradas no convite da PROEN, sem fluxos ou normas institucionais inventados. Preservados sete minutos, alternativas curtas, duas rodadas e condução pelo professor. Ferramentas/custos, refinamento de pedidos e integração de dados permanecem nas sínteses. Roteiro e contingência atualizados.
+
+## D017 — Terminologia dos registros
+
+Usar “anotações” para os apontamentos de atendimento e preparação de reuniões, conforme orientação do professor. Missões, roteiro e contingência alinhados; “notas” fica reservado ao sentido de avaliação quando pertinente.

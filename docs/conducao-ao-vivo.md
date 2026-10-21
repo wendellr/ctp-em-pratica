@@ -12,7 +12,7 @@ A chave de apresentador é fornecida separadamente e não pertence ao repositór
 
 Cada missão tem uma pergunta central e dura cerca de 7 minutos: caso lido pelo professor (1min), voto (30s), duas justificativas de até 20s e comentário (1min), pista e demonstração conduzida (1min30), novo voto (30s), resultados (1min), síntese e aplicação (1min30). Total: 21 minutos. Reserve os outros 9 minutos do bloco para entrada, transições, comparação de ferramentas/custos e caminhos de uso de arquivos e sistemas. O cronômetro não encerra a votação automaticamente.
 
-1. **Um registro pronto para usar?** A IA organiza notas de atendimento, mas transforma um relato em causa confirmada. Distinguir registrar o que foi dito de concluir o que causou as faltas.
+1. **Um registro pronto para usar?** A IA organiza anotações de atendimento, mas transforma um relato em causa confirmada. Distinguir registrar o que foi dito de concluir o que causou as faltas.
 2. **Uma pauta que ajuda a equipe?** A IA produz uma pauta viável, mas antecipa soluções individuais antes da discussão das hipóteses. Refinar o pedido preservando o que é útil.
 3. **Menos casos significa melhora?** A redução absoluta está correta, mas grupos e denominadores mudaram. Pedir cálculos e limites sem trocar uma conclusão precipitada por outra.
 

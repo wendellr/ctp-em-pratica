@@ -93,3 +93,5 @@ A publicação não adiciona persistência nem substitui o teste de carga penden
 - [x] Contextos de atendimento, reunião docente e acompanhamento de frequência.
 - [x] Roteiro e contingência sincronizados, sem alterar a mecânica de votação.
 - [ ] Professor revisar aderência das situações à sua plateia e ensaiar a condução.
+
+- [x] Adequar a terminologia das missões: “anotações” para apontamentos de trabalho.
