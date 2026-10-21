@@ -10,7 +10,19 @@ A chave de apresentador é fornecida separadamente e não pertence ao repositór
 
 ## Ritmo por missão
 
-Apresentação 1min30; votação 30s; justificativas breves 2min; pista e demonstração 1min30; segunda votação 30s; comparação 2min; síntese 2min. Total 10 minutos por missão, três missões. Os tempos de explicação são orientativos. O cronômetro de votação não encerra a rodada automaticamente.
+Cada missão tem uma pergunta central e dura cerca de 7 minutos: caso lido pelo professor (1min), voto (30s), duas justificativas de até 20s e comentário (1min), pista e demonstração conduzida (1min30), novo voto (30s), resultados (1min), síntese e aplicação (1min30). Total: 21 minutos. Reserve os outros 9 minutos do bloco para entrada, transições, comparação de ferramentas/custos e caminhos de uso de arquivos e sistemas. O cronômetro não encerra a votação automaticamente.
+
+1. **A IA inventou. Você percebeu?** Encontrar um único acréscimo sem fonte em um registro fictício.
+2. **Como pedir melhor?** Escolher uma instrução com tarefa, fonte, tempo e limites para criar uma pauta.
+3. **Podemos confiar nesse resumo?** Distinguir respondentes do campus e pedido de orientação de diagnóstico.
+
+Não antecipar a resposta antes do primeiro voto. A segunda rodada permite reconsiderar com uma pista; manter a escolha também pode ser justificado. Não apresentar mudança de voto como prova de aprendizagem. As respostas de referência são C, B e A, respectivamente; explicar o motivo, sem ranking.
+
+## Ponte com a exposição
+
+Na comparação de ferramentas, mantenha Google/Gemini, OpenAI/ChatGPT e Anthropic/Claude, opções gratuitas/pagas e diferença entre assinatura e API. Não usar preços hipotéticos como se fossem preços vigentes. Na ponte com dados, diferencie anexo/exportação de conector/API e orientação sobre SEI de integração autorizada. Esses pontos são conduzidos pelo professor, fora das alternativas das missões.
+
+Todas as situações e respostas de IA são exemplos preparados. Não usar registros identificáveis da plateia.
 
 ## Sequência de controles
 

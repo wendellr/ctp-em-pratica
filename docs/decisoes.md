@@ -47,3 +47,11 @@ Três missões, duas rodadas cada e pausas curtas sob controle do professor. Pai
 ## D013 — Estabilização para o evento
 
 Aprovados backup/retorno, correções pontuais, reconexão e contingência. Polling com timeout e uma consulta ativa; respostas antigas são descartadas; estado de envio explícito; confirmação antes de trocar sessão. Persistência adiada nesta entrega, mantendo a limitação de perda de sessões ao reiniciar. Gerador de carga preparado, sem execução em produção antes de combinar janela. Sem alterações no Nginx.
+
+## D014 — Acesso público para participantes externos
+
+Em 20/10/2026, o professor autorizou a entrada HTTPS por proxy público, preservando a aplicação existente. Certificado dedicado e renovação agendada na entrada; TLS também no trecho até a origem com validação da cadeia. Sessão fictícia testada com autenticação, duas rodadas, reconexão e resultado. Detalhes operacionais e recuperação ficam no registro privado fora do repositório. Validação por rede móvel e carga continuam pendentes.
+
+## D015 — Missões com uma decisão central
+
+A pedido do professor, simplificadas as três missões: identificar um acréscimo sem fonte; escolher uma instrução útil para pauta; preservar a população e o significado de um formulário. Textos reduzidos, alternativas distintas e duas rodadas com pista, sem “corrigir tudo” como resposta. Sete minutos por missão, nove minutos para entrada/transições e demonstrações no bloco de trinta. Custos, ferramentas e integrações ficam na exposição conduzida, preservando os objetivos da formação. Roteiro privado e contingência alinhados; mecanismo de votação preservado.

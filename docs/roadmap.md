@@ -71,3 +71,18 @@ Pendente: ensaio com o professor, teste na rede da plateia e capacidade com o n�
 - [ ] Congelar versão após validação do professor.
 
 Persistência não foi adicionada nesta entrega. Reiniciar continua apagando sessões.
+
+## Acesso externo — 20/10/2026
+
+- [x] Publicar entrada HTTPS dedicada preservando a aplicação atual.
+- [x] Verificar sessão fictícia pelo novo caminho, voto único e duas rodadas.
+- [ ] Confirmar pelo celular com Wi-Fi desligado (4G/5G).
+
+A publicação não adiciona persistência nem substitui o teste de carga pendente.
+
+## Clareza das missões — 20/10/2026
+
+- [x] Uma pergunta central por missão, linguagem curta e exemplos fictícios.
+- [x] Roteiro mediado de sete minutos, sem longos períodos de silêncio.
+- [x] Contingência local atualizada com as mesmas situações.
+- [ ] Ensaio do professor para confirmar leitura e ritmo no celular/projeção.

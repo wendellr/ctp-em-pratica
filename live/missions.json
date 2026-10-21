@@ -1,5 +1,95 @@
 [
- {"title":"Missão 1 · Você liberaria este texto?","character":"Pingo","setup":"Notas fictícias: responsável relata dificuldade com transporte; quatro faltas, sem período; equipe propôs novo contato. Pingo preparou duas versões. A: ‘A família confirmou a causa das faltas de outubro. Retorno acordado para terça, conforme Portaria CTP 99/2026.’ B: ‘Responsável relatou dificuldade com transporte. Notas mencionam quatro faltas; período e data de retorno não informados. A equipe propôs novo contato.’ As duas versões são exemplos editoriais preparados.","question":"Qual encaminhamento você daria a essas versões?","options":[{"id":"a","text":"A parece mais pronta: eu faria apenas ajustes de estilo."},{"id":"b","text":"B é a melhor base, mas eu conferiria cada afirmação com as notas."},{"id":"c","text":"Eu começaria de novo com outra instrução e avaliaria o novo resultado."}],"evidence":"A portaria foi inventada para o exercício. As notas não citam outubro nem terça-feira e não registram acordo. B preserva as lacunas. Ainda é preciso conferir o texto. Refazer o pedido também pode ser uma estratégia, mas não elimina a conferência.","explanation":"A fluência não comprova fidelidade. B oferece uma base mais verificável. C pode ser defensável se a equipe justificar o retrabalho. O critério é apontar a evidência e propor correção, não escolher a frase mais elegante. Rótulos como ‘família negligente’ não se sustentam nessas notas.","guide":["1min30: leia o caso e explique a diferença entre texto plausível e informação verificada.","30s: abra a primeira votação. Não antecipe o erro da referência.","2min: acompanhe a divisão; convide duas justificativas de até 20s. Pergunte: qual trecho sustenta sua escolha?","1min30: revele a pista e demonstre como confrontar afirmações com a fonte.","30s: abra a segunda votação; o público pode manter ou mudar de posição.","2min: revele as duas rodadas e discuta mudanças justificadas.","2min: sintetize uma instrução reutilizável: use somente as notas, atribua relatos e marque lacunas."]},
- {"title":"Missão 2 · Uma escolha que cabe no trabalho","character":"Caio","setup":"Cenário de orçamento inteiramente fictício: quatro profissionais precisam revisar uma pauta e um CSV uma vez por semana. Há teto conjunto de R$120/mês. Opção A: acesso gratuito, com limites a testar. Opção B: assinatura hipotética de R$60 por pessoa/mês. Opção C: integração por API com consumo estimado em R$30/mês, sem incluir desenvolvimento e manutenção. Esses valores não são preços de Gemini, ChatGPT ou Claude.","question":"Qual seria seu primeiro passo?","options":[{"id":"a","text":"Testar a opção gratuita com a mesma tarefa e medir limites e revisão."},{"id":"b","text":"Priorizar a assinatura, justificando o orçamento e quem precisa de acesso."},{"id":"c","text":"Investigar uma integração por API, calculando também implantação e manutenção."}],"evidence":"Quatro assinaturas hipotéticas custariam R$240/mês, acima do teto. A estimativa de API não inclui desenvolvimento, suporte nem manutenção. A opção gratuita pode servir, mas seus limites precisam ser testados. Nenhum plano garante resposta correta. Contas e dados institucionais dependem de autorização.","explanation":"Não há vencedor universal. A permite um experimento de baixo compromisso; B exige rever escopo/orçamento e regras de acesso; C exige avaliar custo total e capacidade institucional. Compare Gemini/Google, ChatGPT/OpenAI e Claude/Anthropic com a mesma tarefa e consulte planos oficiais. Não presuma que assinatura de aplicativo inclui API.","guide":["1min30: explique aplicativo, assinatura e API com o cenário fictício.","30s: abra votação. Diga que há escolhas defensáveis sob condições diferentes.","2min: convide posições diferentes. O que vocês incluíram no custo?","1min30: revele os custos omitidos e faça 4 × 60 com o público.","30s: abra segunda votação, sem exigir mudança.","2min: revele distribuições e pergunte o que faria cada escolha se tornar viável.","2min: mostre os links oficiais e conclua com critérios, sem ranking de marcas."]},
- {"title":"Missão 3 · Os dados sustentam a conclusão?","character":"Lívia","setup":"Formulário fictício: A tem 10 respostas e 4 pedidos de orientação; B tem 20 e 6; C tem 5 e 3. Rascunho X: ‘B apresenta a maior proporção de pedidos.’ Rascunho Y: ‘60% dos estudantes de C precisam de orientação por dificuldade de aprendizagem.’ Os exemplos são preparados para discussão.","question":"Qual correção você faria primeiro?","options":[{"id":"a","text":"Corrigir X: seis pedidos é o maior número, mas não a maior proporção."},{"id":"b","text":"Corrigir Y: a população observada é de respondentes, e não há diagnóstico de aprendizagem."},{"id":"c","text":"Corrigir ambos e pedir numeradores, denominadores, fontes e limitações."}],"evidence":"A: 4/10 = 40%. B: 6/20 = 30%. C: 3/5 = 60%. Total: 13/35 ≈ 37,1%. Não sabemos se os respondentes representam todos os estudantes. O formulário não demonstra causas nem diagnostica dificuldades de aprendizagem.","explanation":"A e B identificam erros reais; C reúne uma revisão mais completa. O debate sobre prioridade depende do uso do texto. Um anexo é uma cópia, não uma sincronização. Comece com exportação fictícia e revisão; conectores e API exigem permissões e construção institucional. No SEI, preparar minuta difere de integrar ao sistema.","guide":["1min30: apresente os dados e os dois rascunhos. Explique contagem e proporção.","30s: abra primeira votação sobre a prioridade da correção.","2min: ouça duas justificativas curtas. Que erro teria maior consequência?","1min30: revele os cálculos, a população observada e os limites.","30s: abra segunda votação.","2min: revele os resultados e compare argumentos, valorizando a revisão justificada.","2min: feche com um experimento individual e uma ação a pactuar com a instituição."]}
+  {
+    "title": "Missão 1 · A IA inventou. Você percebeu?",
+    "character": "Pingo",
+    "setup": "Caso fictício. Anotações: responsável relatou dificuldade com transporte; equipe propôs novo contato. A IA escreveu: “Responsável relatou dificuldade com transporte. A equipe propôs novo contato, já confirmado para terça-feira.”",
+    "question": "Qual trecho acrescenta uma informação que não estava nas anotações?",
+    "options": [
+      {
+        "id": "a",
+        "text": "“Responsável relatou dificuldade com transporte.”"
+      },
+      {
+        "id": "b",
+        "text": "“A equipe propôs novo contato.”"
+      },
+      {
+        "id": "c",
+        "text": "“Já confirmado para terça-feira.”"
+      }
+    ],
+    "evidence": "As anotações não informam data nem confirmação. Propor um contato é diferente de combinar uma data. A frase pode parecer natural e ainda assim acrescentar um fato.",
+    "explanation": "C identifica o acréscimo sem fonte. Uma revisão possível é: “Responsável relatou dificuldade com transporte. A equipe propôs novo contato; a data não consta nas anotações.” Peça à IA que use somente a fonte e marque lacunas. Depois confira cada afirmação. Exemplo preparado, sem geração ao vivo.",
+    "guide": [
+      "1min: leia o caso em voz alta. A plateia acompanha; não precisa estudar o texto sozinha.",
+      "30s: abra a primeira votação e peça uma escolha individual. Encerre manualmente.",
+      "1min: ouça duas pessoas por até 20s cada. Pergunte: Onde essa informação aparece na fonte? Não revele a resposta ainda.",
+      "1min30: revele a pista e conduza a demonstração: aponte as duas anotações e risque somente “já confirmado para terça-feira”. Mostre a revisão sem inventar outra data.",
+      "30s: abra a segunda votação. Diga: pode manter ou mudar; o importante é o motivo. Encerre.",
+      "1min: revele os resultados. Peça a uma pessoa uma justificativa de até 20s; comente a comparação sem tratar mudança como acerto.",
+      "1min30: sintetize: IA ajuda a redigir; quem usa o registro precisa conferir. Use somente as notas e sinalize o que falta. Convide uma aplicação à rotina e avance."
+    ]
+  },
+  {
+    "title": "Missão 2 · Como pedir melhor?",
+    "character": "Caio",
+    "setup": "Caso fictício. A CTP precisa de uma pauta para uma reunião de 30 minutos. Os três assuntos estão definidos em uma lista. O objetivo é sair com encaminhamentos, sem a IA inventar decisões.",
+    "question": "Qual pedido dá à IA melhores condições de preparar essa pauta?",
+    "options": [
+      {
+        "id": "a",
+        "text": "“Crie uma pauta completa e escolha os assuntos mais importantes.”"
+      },
+      {
+        "id": "b",
+        "text": "“Use os três assuntos da lista. Distribua os 30 minutos e proponha perguntas para definir encaminhamentos. Não invente decisões.”"
+      },
+      {
+        "id": "c",
+        "text": "“Atue como especialista e faça uma pauta excelente, bem profissional.”"
+      }
+    ],
+    "evidence": "B informa a fonte, o tempo, a tarefa e o limite. A deixa a IA escolher assuntos que já foram definidos. C pede qualidade, mas não explica o que a pauta precisa conter.",
+    "explanation": "B é o melhor ponto de partida neste caso. Um resultado útil pode ter três blocos de 10 minutos, cada um com uma pergunta para discussão. Você ajusta os tempos e confere a pauta antes de usá-la. Uma instrução clara ajuda, mas não garante um resultado correto. Use assuntos fictícios na demonstração.",
+    "guide": [
+      "1min: leia o caso em voz alta. A plateia acompanha; não precisa estudar o texto sozinha.",
+      "30s: abra a primeira votação e peça uma escolha individual. Encerre manualmente.",
+      "1min: ouça duas pessoas por até 20s cada. Pergunte: O que a IA precisaria saber para fazer uma pauta útil? Não revele a resposta ainda.",
+      "1min30: revele a pista e conduza a demonstração: mostre três assuntos fictícios: registros, agenda de atendimentos e preparação de reunião. Monte três blocos de 10 minutos. Diferencie uma pergunta para a equipe de uma decisão inventada.",
+      "30s: abra a segunda votação. Diga: pode manter ou mudar; o importante é o motivo. Encerre.",
+      "1min: revele os resultados. Peça a uma pessoa uma justificativa de até 20s; comente a comparação sem tratar mudança como acerto.",
+      "1min30: sintetize: Pedido útil: contexto + tarefa + fonte + formato e limites. Revise o rascunho. Esse mesmo pedido pode ser experimentado em diferentes ferramentas. Convide uma aplicação à rotina e avance."
+    ]
+  },
+  {
+    "title": "Missão 3 · Podemos confiar nesse resumo?",
+    "character": "Lívia",
+    "setup": "Dados fictícios de um formulário: 10 estudantes responderam; 6 pediram orientação. A IA resumiu: “60% dos estudantes do campus têm dificuldade de aprendizagem.”",
+    "question": "Qual conclusão os dados realmente permitem?",
+    "options": [
+      {
+        "id": "a",
+        "text": "“6 dos 10 respondentes pediram orientação.”"
+      },
+      {
+        "id": "b",
+        "text": "“60% dos estudantes do campus precisam de orientação.”"
+      },
+      {
+        "id": "c",
+        "text": "“6 respondentes têm dificuldade de aprendizagem.”"
+      }
+    ],
+    "evidence": "Sabemos o que os 10 respondentes marcaram. Não sabemos se representam todo o campus. Pedir orientação também não é um diagnóstico de dificuldade de aprendizagem.",
+    "explanation": "A preserva a informação disponível: 6 de 10 respondentes, ou 60% dos respondentes, pediram orientação. A conta pode estar certa e a conclusão estar errada. Ao usar uma planilha ou formulário, confira a fonte, quem respondeu e o que a pergunta mede. A IA pode organizar os dados; os profissionais interpretam e decidem.",
+    "guide": [
+      "1min: leia o caso em voz alta. A plateia acompanha; não precisa estudar o texto sozinha.",
+      "30s: abra a primeira votação e peça uma escolha individual. Encerre manualmente.",
+      "1min: ouça duas pessoas por até 20s cada. Pergunte: A frase fala das mesmas pessoas e da mesma informação que o formulário? Não revele a resposta ainda.",
+      "1min30: revele a pista e conduza a demonstração: circule “respondentes” e “pediram orientação”. Compare com “campus” e “dificuldade de aprendizagem”. Mostre que o problema não é calcular 6/10.",
+      "30s: abra a segunda votação. Diga: pode manter ou mudar; o importante é o motivo. Encerre.",
+      "1min: revele os resultados. Peça a uma pessoa uma justificativa de até 20s; comente a comparação sem tratar mudança como acerto.",
+      "1min30: sintetize: Dados ajudam a levantar perguntas. Anexar uma planilha não é integrá-la automaticamente a um sistema. Mostre os caminhos de uso de dados depois desta missão. Convide uma aplicação à rotina e avance."
+    ]
+  }
 ]
