@@ -59,3 +59,15 @@ Revisão do caso 01. Em paralelo, obter a referência institucional e definir o 
 Implementados: servidor autenticado, painel, projeção, QR local, entrada com código, duas rodadas por missão, confiança, última escolha por identificador, comparações pareadas e controles manuais. Personagens com transparência.
 
 Pendente: ensaio com o professor, teste na rede da plateia e capacidade com o número esperado de participantes. Não há pontuação, equipes formais, coleta de justificativas livres ou exportação/histórico permanente.
+
+## Estabilização do evento
+
+- [x] Preparar retorno privado da CTP antes da implantação.
+- [x] Corrigir concorrência/timeout de polling e mensagens de envio, com testes locais.
+- [x] Preparar apresentação corrigida e contingência local sem rede.
+- [x] Preparar gerador de carga progressiva 10/50/100/150.
+- [ ] Executar carga na janela combinada; a autorização de estabilização não definiu horário.
+- [ ] Ensaiar no Wi-Fi do auditório e em rede móvel.
+- [ ] Congelar versão após validação do professor.
+
+Persistência não foi adicionada nesta entrega. Reiniciar continua apagando sessões.

@@ -31,3 +31,7 @@ Na falha de rede, continue oralmente com o roteiro das missões. Não apresentar
 ## Componentes
 
 Servidor Node.js sem dependências de runtime externas. QR gerado no navegador com qrcode-generator, de Kazuhiko Arase, licença MIT incluída em live/QR-LICENSE.txt. A licença desse componente não define a licença do restante do produto.
+
+## Conexão e envio na versão estabilizada
+
+Consultas com timeout de oito segundos, sem sobreposição, com descarte de respostas canceladas. Ao retornar à aba ou à rede, uma consulta é solicitada. A última atualização fica visível. A falta de conexão bloqueia os controles baseados em estado antigo; o apresentador pode seguir oralmente com o material local. Seleções editadas mostram que ainda não foram enviadas; envio não confirmado pode ser repetido sem duplicar o voto. A recuperação exige que o serviço e a sessão ainda existam.

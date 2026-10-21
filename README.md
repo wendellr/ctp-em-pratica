@@ -6,7 +6,7 @@ Responsável pela proposta: **Prof. Antonio Wendell de Oliveira Rodrigues — LI
 
 ## Estado atual
 
-Etapa 1: roteiro e conteúdo inicial preparados para revisão. Há um protótipo individual em HTML/JavaScript, sem votação em tempo real ou QR code de sessão. Publicado no GitHub Pages e implantado em https://ctp.ioda.com.br. HTTPS ativo. Informações operacionais de implantação ficam somente na documentação local.
+A aplicação publicada oferece três missões ao vivo, painel privado do apresentador, projeção e participação pelo celular. O modo individual tem oito exercícios complementares. A publicação GitHub Pages é estática; o ao vivo funciona em https://ctp.ioda.com.br. Credenciais e instruções operacionais privadas ficam fora do repositório.
 
 ## Primeira entrega planejada
 
@@ -35,7 +35,7 @@ npm test
 
 ## Forma de trabalho
 
-Mudanças pequenas em branches próprias, revisão do resultado e histórico de alterações. As tarefas ficam no roadmap até definirmos o remoto; depois poderão virar issues. Publicação, hospedagem e serviços pagos terão destino e condições definidos com o responsável. Não incluir segredos, dados pessoais reais ou materiais internos sem autorização.
+Mudanças pequenas em branches próprias, revisão do resultado e histórico de alterações. As tarefas são acompanhadas no roadmap e nas issues do GitHub. Publicação, hospedagem e serviços pagos terão destino e condições definidos com o responsável. Não incluir segredos, dados pessoais reais ou materiais internos sem autorização.
 
 Nenhuma licença de distribuição foi escolhida. Não presumir autorização para publicar este conteúdo sob licença aberta.
 

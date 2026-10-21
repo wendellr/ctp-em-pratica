@@ -43,3 +43,7 @@ Palestra com título proposto, exemplo de reunião e material formativo, distin�
 ## D012 — Missões mediadas com painel privado
 
 Três missões, duas rodadas cada e pausas curtas sob controle do professor. Painel acompanha votos e confiança; projeção revela somente após comando. Comparação pareada por identificador aleatório. Sem ranking, equipes formais ou histórico permanente. Sessões temporárias em memória. Limitações em docs/conducao-ao-vivo.md.
+
+## D013 — Estabilização para o evento
+
+Aprovados backup/retorno, correções pontuais, reconexão e contingência. Polling com timeout e uma consulta ativa; respostas antigas são descartadas; estado de envio explícito; confirmação antes de trocar sessão. Persistência adiada nesta entrega, mantendo a limitação de perda de sessões ao reiniciar. Gerador de carga preparado, sem execução em produção antes de combinar janela. Sem alterações no Nginx.
