@@ -1,95 +1,95 @@
 [
   {
-    "title": "Missão 1 · A IA inventou. Você percebeu?",
+    "title": "Missão 1 · Um registro pronto para usar?",
     "character": "Pingo",
-    "setup": "Caso fictício. Anotações: responsável relatou dificuldade com transporte; equipe propôs novo contato. A IA escreveu: “Responsável relatou dificuldade com transporte. A equipe propôs novo contato, já confirmado para terça-feira.”",
-    "question": "Qual trecho acrescenta uma informação que não estava nas anotações?",
+    "setup": "Simulação de atendimento da CTP. Notas: responsável relata dificuldade com transporte; estudante tem quatro faltas; estudante ainda não foi ouvido; equipe sugeriu novo contato. Pingo organizou: “No atendimento à família, identificou-se uma dificuldade de transporte que explica as quatro faltas do estudante. A equipe propôs novo contato com os responsáveis para acompanhar a situação.”",
+    "question": "Você usaria esse registro no acompanhamento?",
     "options": [
       {
         "id": "a",
-        "text": "“Responsável relatou dificuldade com transporte.”"
+        "text": "Usaria: o texto organiza o relato e preserva o encaminhamento."
       },
       {
         "id": "b",
-        "text": "“A equipe propôs novo contato.”"
+        "text": "Ajustaria a relação entre transporte e faltas antes de usar."
       },
       {
         "id": "c",
-        "text": "“Já confirmado para terça-feira.”"
+        "text": "Aguardaria ouvir o estudante antes de registrar o atendimento."
       }
     ],
-    "evidence": "As anotações não informam data nem confirmação. Propor um contato é diferente de combinar uma data. A frase pode parecer natural e ainda assim acrescentar um fato.",
-    "explanation": "C identifica o acréscimo sem fonte. Uma revisão possível é: “Responsável relatou dificuldade com transporte. A equipe propôs novo contato; a data não consta nas anotações.” Peça à IA que use somente a fonte e marque lacunas. Depois confira cada afirmação. Exemplo preparado, sem geração ao vivo.",
+    "evidence": "A responsável mencionou o transporte, mas não confirmou que ele explica as quatro faltas. Ainda assim, o atendimento realizado já pode ser descrito como relato, deixando a relação causal em aberto.",
+    "explanation": "B é a revisão mais adequada à informação disponível. C traz uma preocupação pertinente: ouvir o estudante. Isso não exige tratar o atendimento já realizado como inexistente. Revisão possível: “A responsável relatou dificuldade com transporte. O estudante apresenta quatro faltas; a relação com o transporte ainda precisa ser esclarecida. A equipe propôs novo contato com a família.” A IA organizou o texto, mas transformou um relato em explicação confirmada. O uso e o compartilhamento do registro dependem das regras institucionais; este caso não define um fluxo oficial.",
     "guide": [
-      "1min: leia o caso em voz alta. A plateia acompanha; não precisa estudar o texto sozinha.",
-      "30s: abra a primeira votação e peça uma escolha individual. Encerre manualmente.",
-      "1min: ouça duas pessoas por até 20s cada. Pergunte: Onde essa informação aparece na fonte? Não revele a resposta ainda.",
-      "1min30: revele a pista e conduza a demonstração: aponte as duas anotações e risque somente “já confirmado para terça-feira”. Mostre a revisão sem inventar outra data.",
-      "30s: abra a segunda votação. Diga: pode manter ou mudar; o importante é o motivo. Encerre.",
-      "1min: revele os resultados. Peça a uma pessoa uma justificativa de até 20s; comente a comparação sem tratar mudança como acerto.",
-      "1min30: sintetize: IA ajuda a redigir; quem usa o registro precisa conferir. Use somente as notas e sinalize o que falta. Convide uma aplicação à rotina e avance."
+      "1min: leia a situação e o rascunho em voz alta. Diga que é uma simulação de rotina da CTP, com exemplos de IA preparados e dados fictícios; não é um procedimento oficial do IFCE.",
+      "30s: abra a primeira votação. Peça uma escolha, mesmo que provisória, e encerre manualmente.",
+      "1min: ouça duas justificativas de até 20s. Pergunte: O que mudou entre a anotação e a redação? Precisamos esperar a próxima conversa para registrar o que já foi relatado? Não antecipe a pista.",
+      "1min30: revele a pista e conduza a demonstração: destaque “explica as quatro faltas”. Troque por uma atribuição à fonte e uma lacuna explícita. Mostre o pedido: “Organize estas notas em um registro breve. Diferencie relatos, fatos registrados e pontos a esclarecer. Não acrescente causas nem acordos.”",
+      "30s: abra a segunda votação. É possível manter ou mudar de posição. Encerre manualmente.",
+      "1min: revele a comparação. Ouça uma justificativa de até 20s e comente o motivo, sem tratar mudança de voto como acerto.",
+      "1min30: conclua: Usar IA para organizar registros pode ajudar. Preserve quem relatou o quê e confira cada afirmação. Na demonstração, use notas fictícias; em trabalho real, escolha ambiente autorizado e informações adequadas ao objetivo. Pergunte onde essa situação aparece no trabalho da equipe; aceite uma fala breve, sem relatos identificáveis."
     ]
   },
   {
-    "title": "Missão 2 · Como pedir melhor?",
+    "title": "Missão 2 · Uma pauta que ajuda a equipe?",
     "character": "Caio",
-    "setup": "Caso fictício. A CTP precisa de uma pauta para uma reunião de 30 minutos. Os três assuntos estão definidos em uma lista. O objetivo é sair com encaminhamentos, sem a IA inventar decisões.",
-    "question": "Qual pedido dá à IA melhores condições de preparar essa pauta?",
+    "setup": "Simulação: a CTP prepara 30 minutos com docentes de uma turma de curso técnico integrado. Notas: entregas atrasadas; avaliações concentradas na mesma semana; alguns estudantes trabalham; causas ainda não discutidas. Pedido: “Monte uma pauta com encaminhamentos.” Caio recebeu da IA: “5min: panorama; 10min: estratégias de estudo dos estudantes; 10min: plano individual de recuperação; 5min: responsáveis e prazos.”",
+    "question": "Qual próximo pedido você faria à IA?",
     "options": [
       {
         "id": "a",
-        "text": "“Crie uma pauta completa e escolha os assuntos mais importantes.”"
+        "text": "“Mantenha a pauta e detalhe as estratégias de estudo.”"
       },
       {
         "id": "b",
-        "text": "“Use os três assuntos da lista. Distribua os 30 minutos e proponha perguntas para definir encaminhamentos. Não invente decisões.”"
+        "text": "“Mantenha a pauta e deixe a linguagem mais acolhedora.”"
       },
       {
         "id": "c",
-        "text": "“Atue como especialista e faça uma pauta excelente, bem profissional.”"
+        "text": "“Reorganize a pauta para investigar as hipóteses antes de propor ações.”"
       }
     ],
-    "evidence": "B informa a fonte, o tempo, a tarefa e o limite. A deixa a IA escolher assuntos que já foram definidos. C pede qualidade, mas não explica o que a pauta precisa conter.",
-    "explanation": "B é o melhor ponto de partida neste caso. Um resultado útil pode ter três blocos de 10 minutos, cada um com uma pergunta para discussão. Você ajusta os tempos e confere a pauta antes de usá-la. Uma instrução clara ajuda, mas não garante um resultado correto. Use assuntos fictícios na demonstração.",
+    "evidence": "Nas notas, os estudantes citaram a concentração das avaliações; os docentes ainda não compararam os calendários. O rascunho parece executável, mas concentra a solução nos estudantes e antecipa um plano sem essa discussão.",
+    "explanation": "C atende melhor ao objetivo exploratório deste encontro. A pode gerar material útil depois; B melhora o tom, mas não muda o foco. Pedido refinado: “Prepare uma pauta de 30 minutos para a CTP e os docentes examinarem estas notas. Separe observações de hipóteses; inclua perguntas sobre calendário, condições de participação e estratégias de estudo. Reserve tempo para pactuar próximos passos, sem apresentar decisões como já tomadas.” Exemplo: 5min para observações, 15min para hipóteses e calendário, 10min para próximos passos. O grupo ajusta o rascunho; não se trata de protocolo do IFCE.",
     "guide": [
-      "1min: leia o caso em voz alta. A plateia acompanha; não precisa estudar o texto sozinha.",
-      "30s: abra a primeira votação e peça uma escolha individual. Encerre manualmente.",
-      "1min: ouça duas pessoas por até 20s cada. Pergunte: O que a IA precisaria saber para fazer uma pauta útil? Não revele a resposta ainda.",
-      "1min30: revele a pista e conduza a demonstração: mostre três assuntos fictícios: registros, agenda de atendimentos e preparação de reunião. Monte três blocos de 10 minutos. Diferencie uma pergunta para a equipe de uma decisão inventada.",
-      "30s: abra a segunda votação. Diga: pode manter ou mudar; o importante é o motivo. Encerre.",
-      "1min: revele os resultados. Peça a uma pessoa uma justificativa de até 20s; comente a comparação sem tratar mudança como acerto.",
-      "1min30: sintetize: Pedido útil: contexto + tarefa + fonte + formato e limites. Revise o rascunho. Esse mesmo pedido pode ser experimentado em diferentes ferramentas. Convide uma aplicação à rotina e avance."
+      "1min: leia a situação e o rascunho em voz alta. Diga que é uma simulação de rotina da CTP, com exemplos de IA preparados e dados fictícios; não é um procedimento oficial do IFCE.",
+      "30s: abra a primeira votação. Peça uma escolha, mesmo que provisória, e encerre manualmente.",
+      "1min: ouça duas justificativas de até 20s. Pergunte: Essa pauta nos ajuda a investigar ou já escolheu uma explicação para o problema? Não antecipe a pista.",
+      "1min30: revele a pista e conduza a demonstração: aproveite o formato e a distribuição de tempo, mas mude a instrução. Compare uma pergunta aberta (“Como as avaliações se distribuem?”) com uma solução antecipada. Mostre a nova pauta 5/15/10; a IA fornece um rascunho, os profissionais pactuam os encaminhamentos.",
+      "30s: abra a segunda votação. É possível manter ou mudar de posição. Encerre manualmente.",
+      "1min: revele a comparação. Ouça uma justificativa de até 20s e comente o motivo, sem tratar mudança de voto como acerto.",
+      "1min30: conclua: Contexto, objetivo e limites alteram o resultado, não apenas seu estilo. O mesmo pedido fictício pode ser testado em Gemini, ChatGPT e Claude; compare a utilidade e o trabalho de revisão, além de acesso, recursos e custos. Assinatura de chat e API são modalidades diferentes. Pergunte onde essa situação aparece no trabalho da equipe; aceite uma fala breve, sem relatos identificáveis."
     ]
   },
   {
-    "title": "Missão 3 · Podemos confiar nesse resumo?",
+    "title": "Missão 3 · Menos casos significa melhora?",
     "character": "Lívia",
-    "setup": "Dados fictícios de um formulário: 10 estudantes responderam; 6 pediram orientação. A IA resumiu: “60% dos estudantes do campus têm dificuldade de aprendizagem.”",
-    "question": "Qual conclusão os dados realmente permitem?",
+    "setup": "Planilha fictícia de acompanhamento da CTP: março, 12 de 40 estudantes acompanhados tinham faltas recorrentes; abril, 8 de 20. Lívia pediu um resumo e recebeu: “Os casos caíram de 12 para 8, redução de 33%. Os resultados indicam melhora da frequência após as ações de acompanhamento.”",
+    "question": "Antes de levar esse resumo à reunião, o que você pediria à IA?",
     "options": [
       {
         "id": "a",
-        "text": "“6 dos 10 respondentes pediram orientação.”"
+        "text": "“Compare também as proporções e explicite os limites da comparação.”"
       },
       {
         "id": "b",
-        "text": "“60% dos estudantes do campus precisam de orientação.”"
+        "text": "“Destaque a redução de 33%, indicando que é uma análise preliminar.”"
       },
       {
         "id": "c",
-        "text": "“6 respondentes têm dificuldade de aprendizagem.”"
+        "text": "“Separe os estudantes em grupos para recomendar quem priorizar.”"
       }
     ],
-    "evidence": "Sabemos o que os 10 respondentes marcaram. Não sabemos se representam todo o campus. Pedir orientação também não é um diagnóstico de dificuldade de aprendizagem.",
-    "explanation": "A preserva a informação disponível: 6 de 10 respondentes, ou 60% dos respondentes, pediram orientação. A conta pode estar certa e a conclusão estar errada. Ao usar uma planilha ou formulário, confira a fonte, quem respondeu e o que a pergunta mede. A IA pode organizar os dados; os profissionais interpretam e decidem.",
+    "evidence": "A lista de acompanhados mudou: não é o mesmo grupo nos dois meses. A classificação de faltas recorrentes foi mantida. Março: 12/40 = 30%; abril: 8/20 = 40%. O número absoluto caiu, mas não podemos concluir melhora nem efeito das ações.",
+    "explanation": "A é o primeiro passo mais útil para revisar este resumo. B mantém uma conclusão insuficientemente sustentada, mesmo com a ressalva. C pode apoiar outra tarefa, mas requer informações e critérios que a tabela não fornece. Revisão: “Foram 12 casos entre 40 acompanhados em março e 8 entre 20 em abril. As proporções foram 30% e 40%. Como a composição dos grupos mudou, os dados não permitem concluir melhora ou piora da frequência nem atribuir efeito às ações.” O aumento da proporção também não prova piora. Confira os cálculos e a fonte; a análise profissional define os próximos passos.",
     "guide": [
-      "1min: leia o caso em voz alta. A plateia acompanha; não precisa estudar o texto sozinha.",
-      "30s: abra a primeira votação e peça uma escolha individual. Encerre manualmente.",
-      "1min: ouça duas pessoas por até 20s cada. Pergunte: A frase fala das mesmas pessoas e da mesma informação que o formulário? Não revele a resposta ainda.",
-      "1min30: revele a pista e conduza a demonstração: circule “respondentes” e “pediram orientação”. Compare com “campus” e “dificuldade de aprendizagem”. Mostre que o problema não é calcular 6/10.",
-      "30s: abra a segunda votação. Diga: pode manter ou mudar; o importante é o motivo. Encerre.",
-      "1min: revele os resultados. Peça a uma pessoa uma justificativa de até 20s; comente a comparação sem tratar mudança como acerto.",
-      "1min30: sintetize: Dados ajudam a levantar perguntas. Anexar uma planilha não é integrá-la automaticamente a um sistema. Mostre os caminhos de uso de dados depois desta missão. Convide uma aplicação à rotina e avance."
+      "1min: leia a situação e o rascunho em voz alta. Diga que é uma simulação de rotina da CTP, com exemplos de IA preparados e dados fictícios; não é um procedimento oficial do IFCE.",
+      "30s: abra a primeira votação. Peça uma escolha, mesmo que provisória, e encerre manualmente.",
+      "1min: ouça duas justificativas de até 20s. Pergunte: O cálculo de 33% está errado? O que falta para interpretar essa redução? Não antecipe a pista.",
+      "1min30: revele a pista e conduza a demonstração: faça (12−8)/12 e depois 12/40 e 8/20. Revele que os grupos mudaram. Peça à IA: “Mostre numeradores, denominadores e proporções; descreva a mudança dos grupos e não atribua causa.” Destaque que a nova porcentagem também exige contexto.",
+      "30s: abra a segunda votação. É possível manter ou mudar de posição. Encerre manualmente.",
+      "1min: revele a comparação. Ouça uma justificativa de até 20s e comente o motivo, sem tratar mudança de voto como acerto.",
+      "1min30: conclua: Planilhas e formulários podem alimentar uma síntese útil, com conferência. Uma exportação ou anexo não cria sincronização automática; conectores e API exigem permissões e construção institucional. Apoiar uma minuta ou orientar um fluxo no SEI difere de integrar ao sistema. Pergunte onde essa situação aparece no trabalho da equipe; aceite uma fala breve, sem relatos identificáveis."
     ]
   }
 ]

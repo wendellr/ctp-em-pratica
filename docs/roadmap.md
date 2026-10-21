@@ -86,3 +86,10 @@ A publicação não adiciona persistência nem substitui o teste de carga penden
 - [x] Roteiro mediado de sete minutos, sem longos períodos de silêncio.
 - [x] Contingência local atualizada com as mesmas situações.
 - [ ] Ensaio do professor para confirmar leitura e ritmo no celular/projeção.
+
+## Situações de trabalho da CTP — 21/10/2026
+
+- [x] Rascunhos úteis com problemas sutis de fonte, foco e interpretação.
+- [x] Contextos de atendimento, reunião docente e acompanhamento de frequência.
+- [x] Roteiro e contingência sincronizados, sem alterar a mecânica de votação.
+- [ ] Professor revisar aderência das situações à sua plateia e ensaiar a condução.

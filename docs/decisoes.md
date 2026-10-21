@@ -55,3 +55,7 @@ Em 20/10/2026, o professor autorizou a entrada HTTPS por proxy público, preserv
 ## D015 — Missões com uma decisão central
 
 A pedido do professor, simplificadas as três missões: identificar um acréscimo sem fonte; escolher uma instrução útil para pauta; preservar a população e o significado de um formulário. Textos reduzidos, alternativas distintas e duas rodadas com pista, sem “corrigir tudo” como resposta. Sete minutos por missão, nove minutos para entrada/transições e demonstrações no bloco de trinta. Custos, ferramentas e integrações ficam na exposição conduzida, preservando os objetivos da formação. Roteiro privado e contingência alinhados; mecanismo de votação preservado.
+
+## D016 — Situações profissionais com revisão contextual
+
+Em 21/10/2026, a pedido do professor, substituídos os exercícios excessivamente óbvios por rascunhos úteis com limites sutis: registro de atendimento que confirma causa sem fonte; pauta que antecipa soluções; síntese que confunde redução absoluta com melhora entre grupos diferentes. Situações fictícias inspiradas no convite da PROEN, sem fluxos ou normas institucionais inventados. Preservados sete minutos, alternativas curtas, duas rodadas e condução pelo professor. Ferramentas/custos, refinamento de pedidos e integração de dados permanecem nas sínteses. Roteiro e contingência atualizados.

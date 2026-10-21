@@ -12,11 +12,13 @@ A chave de apresentador é fornecida separadamente e não pertence ao repositór
 
 Cada missão tem uma pergunta central e dura cerca de 7 minutos: caso lido pelo professor (1min), voto (30s), duas justificativas de até 20s e comentário (1min), pista e demonstração conduzida (1min30), novo voto (30s), resultados (1min), síntese e aplicação (1min30). Total: 21 minutos. Reserve os outros 9 minutos do bloco para entrada, transições, comparação de ferramentas/custos e caminhos de uso de arquivos e sistemas. O cronômetro não encerra a votação automaticamente.
 
-1. **A IA inventou. Você percebeu?** Encontrar um único acréscimo sem fonte em um registro fictício.
-2. **Como pedir melhor?** Escolher uma instrução com tarefa, fonte, tempo e limites para criar uma pauta.
-3. **Podemos confiar nesse resumo?** Distinguir respondentes do campus e pedido de orientação de diagnóstico.
+1. **Um registro pronto para usar?** A IA organiza notas de atendimento, mas transforma um relato em causa confirmada. Distinguir registrar o que foi dito de concluir o que causou as faltas.
+2. **Uma pauta que ajuda a equipe?** A IA produz uma pauta viável, mas antecipa soluções individuais antes da discussão das hipóteses. Refinar o pedido preservando o que é útil.
+3. **Menos casos significa melhora?** A redução absoluta está correta, mas grupos e denominadores mudaram. Pedir cálculos e limites sem trocar uma conclusão precipitada por outra.
 
-Não antecipar a resposta antes do primeiro voto. A segunda rodada permite reconsiderar com uma pista; manter a escolha também pode ser justificado. Não apresentar mudança de voto como prova de aprendizagem. As respostas de referência são C, B e A, respectivamente; explicar o motivo, sem ranking.
+Não antecipar a pista antes do primeiro voto. A segunda rodada permite reconsiderar com contexto adicional. Não apresentar mudança de voto como prova de aprendizagem. As referências para estes casos são B, C e A; ouvir as condições que justificariam outras ações. Não pontuar como decisões profissionais universais.
+
+Casos fictícios inspirados nas atividades descritas no convite da PROEN, sem alegação de validação por uma CTP nem de reprodução de fluxo oficial. Não solicitar experiências identificáveis.
 
 ## Ponte com a exposição
 
